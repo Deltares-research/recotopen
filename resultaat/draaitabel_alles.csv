@@ -1,0 +1,297 @@
+ZONERING;ECOTOOP;eco_code;VEG_STRUCT;STRUCT_COD;systeem;mech_dyn_o_gering dynamisch;mech_dyn_o_matig dynamisch;mech_dyn_o_sterk dynamisch;mech_dyn_o_onbekend;mech_dyn_o_NA;hydrologie_oever - supralittoraal of overstromingsvrij;hydrologie_oever - vochtig of overstromingsvrij;hydrologie_oever - vochtig;hydrologie_oever - drassig;hydrologie_oever - nat;hydrologie_oever - supralittoraal;hydrologie_oever -supralitoraal;hydrologie_overstromingsvrij;hydrologie_vochtig of overstromingsvrij;hydrologie_supralittoraal of overstromingsvrij;hydrologie_supralittoraal;hydrologie_vochtig;hydrologie_drassig;hydrologie_ondiep;hydrologie_matig diep;hydrologie_diep;hydrologie_zeer diep;hydrologie_onbekend;zout_cat_zoet;zout_cat_zwak brak;zout_cat_brak;zout_cat_zout;zout_cat_NA;zout_cat_onbekend;beheer_nauwelijks tot geen beheer;beheer_extensief beheer;beheer_intensief beheer;beheer_kunstmatig hard substraat;beheer_onbekend;beheer_water
+Aquatisch;Aangetakte plas;gzp;aangetakte plas;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;x;;;x;;;;;;;;;;;x
+Aquatisch;Brak aangetakte plas;gbxa;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;x
+Aquatisch;Brak getijdenwater;gbx;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;x
+Aquatisch;Brak water achter vooroever;gbxv;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;x
+Aquatisch;Diep water;mzd;meer;watstgnnt;m;;;;;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;;x
+Aquatisch;Diep zomerbed;rzd;zomerbed;watstrmnd;r;;;;;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;;x
+Aquatisch;Diep, brak getijdenwater;gbd;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;x
+Aquatisch;Diep, zoet getijdenwater;gzd;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;;x
+Aquatisch;Diep, zwak brak getijdenwater;god;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;x
+Aquatisch;Diepe eenzijdig aangetakte nevengeul;rtd;nevengeul;watstrmnd;r;;;;;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;;x
+Aquatisch;Diepe nevengeul;rnd;nevengeul;watstrmnd;r;;;;;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;;x
+Aquatisch;Eenzijdig aangetakte getijdenkreek;gzkz;eenzijdig aangetakte getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;;;;;;;;;x;;;;;;x
+Aquatisch;Eenzijdig aangetakte getijdenkreek;gokz;eenzijdig aangetakte getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;;;;;;;;;x;;;;;;x
+Aquatisch;Eenzijdig aangetakte getijdenkreek;gbkz;eenzijdig aangetakte getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;;;;;;;;;x;;;;;;x
+Aquatisch;Eenzijdig aangetakte zoete getijdenkreek;gzxk;getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Eenzijdig aangetakte, brakke getijdenkreek;gbkz;eenzijdig aangetakte getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;;;;;;x;;;;;;;;;x
+Aquatisch;Eenzijdig aangetakte, zoete getijdenkreek;gzkz;eenzijdig aangetakte getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;;;;x;;;;;;;;;;;x
+Aquatisch;Eenzijdig aangetakte, zwak brakke getijdenkreek;gokz;eenzijdig aangetakte getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;;;;;;;;;;x
+Aquatisch;Eenzijdig diep aangetakte zoete getijdenkreek;gzdk;getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;;x
+Aquatisch;Eenzijdig matig diep aangetakte zoete getijdenkreek;gzmk;getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Eenzijdig ondiep aangetakte zoete getijdenkreek;gzok;getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Eenzijdig ondiep aangetakte zwak brakke getijdenkreek;gook;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;;;;;;x;;;;;;;;;;x
+Aquatisch;Eenzijdig zeer diep aangetakte zoete getijdenkreek;gzzk;getijdenkreek;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;x;;x;;;;;;;;;;;x
+Aquatisch;Haven;gbh;haven;watstgnnt;g;;;;;x;;;;;;;;;;;;;;x;x;x;;;;;x;;;;;;;;;x
+Aquatisch;Haven;gzh;haven;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Matig diep;rvd;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;x;x;;x;;;;;;;;;;;x
+Aquatisch;Matig diep;rvm;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;x;x;;x;;;;;;;;;;;x
+Aquatisch;Matig diep;rvx;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Matig diep;rwx;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Matig diep rivierbegeleidend water (< 20 d/j overstroomd);rwm;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep rivierbegeleidend water (< 20 d/j overstroomd);rwm;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep rivierbegeleidend water (> 20 d/j overstroomd);rvm;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep rivierbegeleidend water (> 20 d/j overstroomd);rvm;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep water;mzm;meer;watstgnnt;m;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep zomerbed;rzm;zomerbed;watstrmnd;r;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep, brak getijdenwater;gbm;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;;;;;;;;;x
+Aquatisch;Matig diep, brakke getijdenkreek;gbmk;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;;;;;;;;;x
+Aquatisch;Matig diep, zoet getijdenwater;gzm;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diep, zwak brak getijdenwater;gom;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;x
+Aquatisch;Matig diepe eenzijdig aangetakte nevengeul;rtm;nevengeul;watstrmnd;r;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig diepe nevengeul;rnm;nevengeul;watstrmnd;r;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;;;x
+Aquatisch;Matig tot gering dynamisch water (achter vooroever);gza;matig tot gering dynamisch water (achter vooroever);watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;x;x;;;x;;;;;;;;;;;x
+Aquatisch;Matige diepe nevengeul;rest-t;rest;;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;x;;;
+Aquatisch;Ondiep rivierbegeleidend water (< 20 d/j overstroomd);rwo;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep rivierbegeleidend water (< 20 d/j overstroomd);rwo;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep rivierbegeleidend water (> 20 d/j overstroomd);rvo;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep rivierbegeleidend water (> 20 d/j overstroomd);rvo;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep water;mzo;meer;watstgnnt;m;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep zomerbed;rzo;zomerbed;watstrmnd;r;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep, brak getijdenwater;gbo;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;;;;;;;x;;;;;;;;;x
+Aquatisch;Ondiep, zoet getijdenwater;gzo;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiep, zwak brak getijdenwater;goo;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;x;;;;;;x;;;;;;;;;;x
+Aquatisch;Ondiepe eenzijdig aangetakte nevengeul;rto;nevengeul;watstrmnd;r;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiepe nevengeul;rnm;nevengeul;;g;;;;;x;;;;;;;;;;;;;;x;x;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiepe nevengeul;rno;nevengeul;;g;;;;;x;;;;;;;;;;;;;;x;x;;;;x;;;;;;;;;;;x
+Aquatisch;Ondiepe nevengeul;rno;nevengeul;watstrmnd;r;;;;;x;;;;;;;;;;;;;;x;;;;;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (< 20 d/j overstroomd);rwx;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (< 20 d/j overstroomd);rwx;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (</> 20 d/j overstroomd);rv;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (</> 20 d/j overstroomd);rv;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (</> 20 d/j overstroomd);wx;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (</> 20 d/j overstroomd);wx;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Rivierbegeleidend water (> 20 d/j overstroomd);rvx;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Zeer diep rivierbegeleidend water (< 20 d/j overstroomd);rwd;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;;x;x;;x;;;;;;;;;;;x
+Aquatisch;Zeer diep rivierbegeleidend water (< 20 d/j overstroomd);rwd;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;x;x;;x;;;;;;;;;;;x
+Aquatisch;Zeer diep rivierbegeleidend water (> 20 d/j overstroomd);rvd;rivierbegeleidend water;watstgnnt;r;;;;;x;;;;;;;;;;;;;;;;x;x;;x;;;;;;;;;;;x
+Aquatisch;Zeer diep rivierbegeleidend water (> 20 d/j overstroomd);rvd;rivierbegeleidend water;watstgnnt;g;;;;;x;;;;;;;;;;;;;;;;x;x;;x;;;;;;;;;;;x
+Aquatisch;Zeer diep water;mzz;meer;watstgnnt;m;;;;;x;;;;;;;;;;;;;;;;;x;;x;;;;;;;;;;;x
+Aquatisch;Zeer diep, brak getijdenwater;gbzx;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;x;;;;x;;;;;;;;;x
+Aquatisch;Zeer diep, zoet getijdenwater;gzzx;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;x;;x;;;;;;;;;;;x
+Aquatisch;Zeer diep, zwak brak getijdenwater;gozx;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;x;;;x;;;;;;;;;;x
+Aquatisch;Zoet aangetakte plas;gzxa;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Zoet getijdenwater;gzx;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Zoet water achter vooroever;gzxv;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;x;;;;;;;;;;;x
+Aquatisch;Zwak brak getijdenwater;gox;getijdenwater;watstrmnd;g;;;;;x;;;;;;;;;;;;;;;;;;x;;x;;;;;;;;;;x
+Hoge uiterwaard;Uiterwaard akker;ua-1;akker;akker;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Hoge uiterwaard;Uiterwaard bebouwd;ua-2;bebouwd/verhard;bebverh;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;x;;
+Hoge uiterwaard;Uiterwaard grasland (natuurlijk of productie);ug-1-2;productie/natuurlijk grasland;graslnat;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;
+Hoge uiterwaard;Uiterwaard hoogstamboomgaard;ub-4;boomgaard (hoog-of halfstam);boomgrd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Hoge uiterwaard;Uiterwaard laagstamboomgaard;ub-5;laagstam boom-/fruitgaarden en kwekerijen;boomgrd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Hoge uiterwaard;Uiterwaard natuurlijk bos;ub-1;natuurlijk bos;bosnat;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Hoge uiterwaard;Uiterwaard natuurlijk grasland;ug-1;natuurlijk grasland;graslnat;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Hoge uiterwaard;Uiterwaard onbegroeid (antropogeen);rest-u;onbegroeid (antropogeen);onbgrtijd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;
+Hoge uiterwaard;Uiterwaard productiebos;ub-3;productiebos;bosprod;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Hoge uiterwaard;Uiterwaard productiegrasland;ug-2;productiegrasland;graslprod;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Hoge uiterwaard;Uiterwaard riet;um-1;riet en overige helofyten;riet;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;
+Hoge uiterwaard;Uiterwaard ruigte;ur-1;ruigte;ruigte;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Hoge uiterwaard;Uiterwaard struweel;ub-2;struweel;struweel;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Hoge uiterwaard;Uiterwaard vegetatie met lage bedekking (5 - 25%);up-1;vegetatie met lage bedekking (5-25%);pionier;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;
+Oevers;Akker in oever;iv.7;riet en overige helofyten;;g;x;x;;;;;;;;x;;;;;;;;x;;;;;;;x;x;;;;;;x;;;
+Oevers;Akker in oever;ix.a;akker;akker;r;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Akker in oever;ix.a;akker;akker;g;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Akker in oever;ix.a;akker;akker;m;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Brakke helofytencultuur;iv.5;biezen;;g;x;x;;;;;;;;x;;;;;;;;;;;;;;;;x;;;;x;x;;;;
+Oevers;Dynamisch zoet tot zwak brak ondiep water;i.1;ondiep water;watstgnnt;r;;;x;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;;;;;
+Oevers;Dynamisch zoet tot zwak brak ondiep water;i.1;ondiep water;watstgnnt;m;;;x;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;;;;;
+Oevers;Gering dynamisch zoet tot zwak brak ondiep water;i.5;ondiep water;watstgnnt;m;x;;;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Grasland in oever;vii.1-2-3;productie/natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;;x;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers;Grasland in oever;vii.1-2-3;productie/natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;;x;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers;Grasland in oever;vii.1-2-3;productie/natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;;x;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers;Griend in oever;vi.7;griend;struweel;g;x;x;;;;;;x;;;;;;;;x;;;;;;;;x;x;;;;;;;x;;;
+Oevers;Grindbanken;ii.1;onbegroeid (natuurlijk);onbgrnat;r;;;x;;;;;;;x;;;;;;;;;;;;;;x;;;;;;x;;;;;
+Oevers;Hard substraat in laag littoraal zout getijdenwater;iii.5;bebouwd/verhard;bebverh;r;;x;x;;;;;;;x;;;;;;;;;;;;;;;;x;x;;;;;;x;;
+Oevers;Hard substraat in laag littoraal zout getijdenwater;iii.5;bebouwd/verhard;bebverh;g;;x;x;;;;;;;x;;;;;;;;;;;;;;;;x;x;;;;;;x;;
+Oevers;Hard substraat in laag littoraal zout getijdenwater;iii.5;bebouwd/verhard;bebverh;m;;x;x;;;;;;;x;;;;;;;;;;;;;;;;x;x;;;;;;x;;
+Oevers;Helofytenmoeras (riet/moerasplanten) in oever;iv.8-9;riet en overige helofyten;riet;r;x;x;;;;;;;x;;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Helofytenmoeras (riet/moerasplanten) in oever;iv.8-9;riet en overige helofyten;riet;g;x;x;;;;;;;x;;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Helofytenmoeras (riet/moerasplanten) in oever;iv.8-9;riet en overige helofyten;riet;m;x;x;;;;;;;x;;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Hoogstamboomgaard in oever;vi.9;boomgaard (hoog-of halfstam);boomgrd;r;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Hoogstamboomgaard in oever;vi.9;boomgaard (hoog-of halfstam);boomgrd;g;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Hoogstamboomgaard in oever;vi.9;boomgaard (hoog-of halfstam);boomgrd;m;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Laagstamboomgaard in oever;vi.10;boomgaard (laag-of halfstam);boomgrd;r;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Laagstamboomgaard in oever;vi.10;boomgaard (laag-of halfstam);boomgrd;g;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Laagstamboomgaard in oever;vi.10;boomgaard (laag-of halfstam);boomgrd;m;;;;x;;;;;;;;;;;;;;;;;;;x;x;;;;;;;;x;;;
+Oevers;Matig dynamisch brak tot zout ondiep water/brak biezengors;i.4;ondiep water/riet en overige helofyten;watstgnnt;g;x;x;;;;;;;;x;;;;;;;;;;;;;;;;x;x;;;x;x;;;;
+Oevers;Matig dynamisch brak tot zout ondiep water/brak biezengors;iv.5;ondiep water/riet en overige helofyten;watstgnnt;g;x;x;;;;;;;;x;;;;;;;;;;;;;;;;x;x;;;x;x;;;;
+Oevers;Matig dynamisch hard substraat op de buitenberm onder invloed van getijdenwater;iii.8;bebouwd/verhard;bebverh;r;x;x;;;;;;;;;x;;;;;;;;;;;;;;;x;x;;;;;;x;;
+Oevers;Matig dynamisch hard substraat op de buitenberm onder invloed van getijdenwater;iii.8;bebouwd/verhard;bebverh;g;x;x;;;;;;;;;x;;;;;;;;;;;;;;;x;x;;;;;;x;;
+Oevers;Matig dynamisch hard substraat op de buitenberm onder invloed van getijdenwater;iii.8;bebouwd/verhard;bebverh;m;x;x;;;;;;;;;x;;;;;;;;;;;;;;;x;x;;;;;;x;;
+Oevers;Matig dynamisch zoet tot zwak brak ondiep water;i.3;ondiep water;watstgnnt;m;;x;;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Matig dynamisch zoet tot zwak brak ondiep water/zoetwater biezengors;i.3;ondiep water/riet en overige helofyten;watstgnnt;g;x;x;;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Matig dynamisch zoet tot zwak brak ondiep water/zoetwater biezengors;iv.3;ondiep water/riet en overige helofyten;watstgnnt;g;x;x;;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2;bebouwd/verhard;bebverh;g;;;x;;;;;;;x;;;;;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2-3;bebouwd/verhard;bebverh;r;;x;x;;;;;;;x;;;;;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2-3;bebouwd/verhard;bebverh;g;;x;x;;;;;;;x;;;;x;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2-3;bebouwd/verhard;bebverh;m;;x;x;;;;;;;x;;;;;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;ha-2;bebouwd/verhard;bebverh;g;;x;x;;;;;;;x;;;;x;;;;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2-4;bebouwd/verhard;bebverh;r;;x;x;;;;;;;x;;;;;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2-4;bebouwd/verhard;bebverh;g;;x;x;;;;;;;x;;;;;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water;iii.2-4;bebouwd/verhard;bebverh;m;;x;x;;;;;;;x;;;;;;;x;x;;;;;;x;x;x;;;;;;;x;;
+Oevers;Moerasplanten en helofytenzone;iv.1-2-6-8-9;riet en overige helofyten;riet;m;x;x;;;;;;;;x;;;;;;;;x;;;;;;;;;;x;;x;x;x;;;
+Oevers;Moerasruigte in oever;v.1-2;ruigte;ruigte;r;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Moerasruigte in oever;v.1-2;ruigte;ruigte;g;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Moerasruigte in oever;v.1-2;ruigte;ruigte;m;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Moerasruigte/gorsruigte in oever;v.1-2-3-4;ruigte;ruigte;r;x;x;;;;;;x;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers;Moerasruigte/gorsruigte in oever;v.1-2-3-4;ruigte;ruigte;g;x;x;;;;;;x;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers;Moerasruigte/gorsruigte in oever;v.1-2-3-4;ruigte;ruigte;m;x;x;;;;;;x;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers;Moerassig overstromingsgrasland in oever;vii.1;natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers;Moerassig overstromingsgrasland in oever;vii.1;natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers;Moerassig overstromingsgrasland in oever;vii.1;natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers;Moerassig overstromingsgrasland/productiegrasland in oever;vii.1-3;productie/natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers;Moerassig overstromingsgrasland/productiegrasland in oever;vii.1-3;productie/natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers;Moerassig overstromingsgrasland/productiegrasland in oever;vii.1-3;productie/natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers;Moerassig structuurrijk overstromingsgrasland;vii.1-2;natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;;x;x;;;;;;;x;x;;;;;;;;;x;
+Oevers;Moerassig structuurrijk overstromingsgrasland;vii.1-2;natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;;x;x;;;;;;;x;x;;;;;;;;;x;
+Oevers;Moerassig structuurrijk overstromingsgrasland;vii.1-2;natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;;x;x;;;;;;;x;x;;;;;;;;;x;
+Oevers;Onbegroeid (antropogeen) in oever;rest-o;onbegroeid (antropogeen);onbgrtijd;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;x;;;;;;x;
+Oevers;Onbegroeid (antropogeen) in oever;rest-o;onbegroeid (antropogeen);onbgrtijd;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;x;;;;;;x;
+Oevers;Onbegroeid (antropogeen) in oever;rest-o;onbegroeid (antropogeen);onbgrtijd;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;x;;;;;;x;
+Oevers;Overstromingsarm vloedbos;vi.6;natuurlijk bos;bosnat;g;x;;;;;;;;;;x;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Productiebos in oever;vi.8;productiebos;bosprod;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers;Productiebos in oever;vi.8;productiebos;bosprod;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers;Productiebos in oever;vi.8;productiebos;bosprod;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers;Productiegrasland in oever;vii.3;productiegrasland;graslprod;r;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;x;;;;;;x;;;
+Oevers;Productiegrasland in oever;vii.3;productiegrasland;graslprod;g;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;x;;;;;;x;;;
+Oevers;Productiegrasland in oever;vii.3;productiegrasland;graslprod;m;x;x;;;;;;;x;;;;;;;;x;;;;;;;x;x;x;;;;;;x;;;
+Oevers;Soortenarm helofytenmoeras van het supralittoraal;iv.11;riet en overige helofyten;riet;g;;;;x;;;;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;
+Oevers;Soortenarme helofytenvegetatie in ondiep water;iv.1;riet en overige helofyten;riet;r;x;x;;;;;;;;x;;;;;;;;;;;;;;x;;;;;;;x;;;;
+Oevers;Soortenarme helofytenvegetatie in ondiep water;iv.1;riet en overige helofyten;riet;g;x;x;;;;;;;;x;;;;;;;;;;;;;;x;;;;;;;x;;;;
+Oevers;Soortenarme helofytenvegetatie in ondiep water;iv.1;riet en overige helofyten;riet;m;x;x;;;;;;;;x;;;;;;;;;;;;;;x;;;;;;;x;;;;
+Oevers;Sterk dynamische brakke en zoute zandige platen/matig dynamische brakke en zoute lage platen;ii.3;kale plaat;onbgrnat;g;;x;x;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;;;;;
+Oevers;Sterk dynamische brakke en zoute zandige platen/matig dynamische brakke en zoute lage platen;ii.3-5;onbegroeid (natuurlijk);onbgrnat;g;;x;x;;;;;;;x;;;;;;;x;x;;;;;;;;x;x;;;x;;;;;
+Oevers;Tijdelijk kaal;ix.a;akker;;g;x;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oevers;Tijdelijk kaal;ha-1;akker;;g;x;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oevers;Vegetatie met lage bedekking (5 - 25%) in oever;vii.4;vegetatie met lage bedekking (5 - 25%);pionier;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers;Vegetatie met lage bedekking (5 - 25%) in oever;vii.4;vegetatie met lage bedekking (5 - 25%);pionier;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers;Vegetatie met lage bedekking (5 - 25%) in oever;vii.4;vegetatie met lage bedekking (5 - 25%);pionier;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers;Vloedbos in oever;vi.5;natuurlijk bos;bosnat;g;x;x;;;;;;x;;;;;;;;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers;Zachthout ooibos in oever;vi.4;natuurlijk bos;bosnat;r;x;;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout ooibos in oever;vi.4;natuurlijk bos;bosnat;g;x;;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout ooibos in oever;vi.4;natuurlijk bos;bosnat;m;x;;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel;v.2;ruigte/riet en overige helofyten;;g;x;;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel;hm-1;ruigte/riet en overige helofyten;;g;x;;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel in oever;vi.2;struweel;struweel;r;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel in oever;vi.2;struweel;struweel;g;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel in oever;vi.2;struweel;struweel;m;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel in oever;vi.2-3;struweel;struweel;r;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel in oever;vi.2-3;struweel;struweel;g;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zachthout struweel in oever;vi.2-3;struweel;struweel;m;x;x;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers;Zoete zandplaten;ii.2;onbegroeid (natuurlijk);onbgrnat;r;;;x;;;;;;;x;;;;;;;;;;;;;;x;;;;;;x;;;;;
+Oevers;Zoete zandplaten;ii.2;onbegroeid (natuurlijk);onbgrnat;m;;;x;;;;;;;x;;;;;;;;;;;;;;x;;;;;;x;;;;;
+Oevers;Zoete zandplaten/zoete slibrijke platen;ii.2-4;onbegroeid (natuurlijk);onbgrnat;g;;x;x;;;;;;;x;;;;;;;;;;;;;;x;x;;;;;x;;;;;
+Oevers;Zoetwater biezengors;iv.3;biezen;biezen;m;x;x;;;;;;;;x;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water/overstromingsvrij bebouwd;iii.2-4;bebouwd/verhard;bebverh;r;;;;x;;;;;;x;;;;x;;;;x;;;;;;;;;;;x;;;;x;;
+Oevers/overstromingsvrije zone;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water/overstromingsvrij bebouwd;iii.2-4;bebouwd/verhard;bebverh;g;;;;x;;;;;;x;;;;x;;;;x;;;;;;;;;;;x;;;;x;;
+Oevers/overstromingsvrije zone;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water/overstromingsvrij bebouwd;iii.2-4;bebouwd/verhard;bebverh;m;;;;x;;;;;;x;;;;x;;;;x;;;;;;;;;;;x;;;;x;;
+Oevers/overstromingsvrije zone;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water/overstromingsvrij bebouwd;ha-2;bebouwd/verhard;bebverh;r;;;;x;;;;;;x;;;;x;;;;x;;;;;;;;;;;x;;;;x;;
+Oevers/overstromingsvrije zone;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water/overstromingsvrij bebouwd;ha-2;bebouwd/verhard;bebverh;g;;;;x;;;;;;x;;;;x;;;;x;;;;;;;;;;;x;;;;x;;
+Oevers/overstromingsvrije zone;Matig tot sterk dynamisch hard substraat onder invloed van zoet of brak water/overstromingsvrij bebouwd;ha-2;bebouwd/verhard;bebverh;m;;;;x;;;;;;x;;;;x;;;;x;;;;;;;;;;;x;;;;x;;
+Oevers/overstromingsvrije zone;Moerasruigte/gorsruigte/overstromingsvrije ruigte;v.1-2-3-4;ruigte;ruigte;r;x;x;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Moerasruigte/gorsruigte/overstromingsvrije ruigte;v.1-2-3-4;ruigte;ruigte;g;x;x;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Moerasruigte/gorsruigte/overstromingsvrije ruigte;v.1-2-3-4;ruigte;ruigte;m;x;x;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Moerasruigte/gorsruigte/overstromingsvrije ruigte;hr-1;ruigte;ruigte;r;x;x;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Moerasruigte/gorsruigte/overstromingsvrije ruigte;hr-1;ruigte;ruigte;g;x;x;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Moerasruigte/gorsruigte/overstromingsvrije ruigte;hr-1;ruigte;ruigte;m;x;x;;;;;x;;;;;;;;;;;;;;;;;x;x;x;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij grasland (natuurlijk of productie);vii.1-2-3;productie/natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij grasland (natuurlijk of productie);vii.1-2-3;productie/natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij grasland (natuurlijk of productie);vii.1-2-3;productie/natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij grasland (natuurlijk of productie);hg-1-2;productie/natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij grasland (natuurlijk of productie);hg-1-2;productie/natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij grasland (natuurlijk of productie);hg-1-2;productie/natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;x;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk bos;vi.5-6;natuurlijk bos;bosnat;r;x;x;;;;;;x;;;;;;;x;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk bos;vi.5-6;natuurlijk bos;bosnat;g;x;x;;;;;;x;;;;;;;x;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk bos;vi.5-6;natuurlijk bos;bosnat;m;x;x;;;;;;x;;;;;;;x;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk bos;hb-1;natuurlijk bos;bosnat;r;x;x;;;;;;x;;;;;;;x;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk bos;hb-1;natuurlijk bos;bosnat;g;x;x;;;;;;x;;;;;;;x;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk bos;hb-1;natuurlijk bos;bosnat;m;x;x;;;;;;x;;;;;;;x;;;;;;;;;x;x;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk grasland;vii.1-2;natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk grasland;vii.1-2;natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk grasland;vii.1-2;natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk grasland;hg-1;natuurlijk grasland;graslnat;r;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk grasland;hg-1;natuurlijk grasland;graslnat;g;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij natuurlijk grasland;hg-1;natuurlijk grasland;graslnat;m;x;x;;;;;;;x;;;;;;x;;x;;;;;;;x;x;;;;;;;;;x;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiebos;vi.8;productiebos;bosprod;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiebos;vi.8;productiebos;bosprod;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiebos;vi.8;productiebos;bosprod;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiebos;hb-3;productiebos;bosprod;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiebos;hb-3;productiebos;bosprod;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiebos;hb-3;productiebos;bosprod;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiegrasland;vii.3;productiegrasland;graslprod;r;x;x;;;;;;;x;;;;;x;;;;;;;;;;x;x;x;;;;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiegrasland;vii.3;productiegrasland;graslprod;g;x;x;;;;;;;x;;;;;x;;;;;;;;;;x;x;x;;;;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiegrasland;vii.3;productiegrasland;graslprod;m;x;x;;;;;;;x;;;;;x;;;;;;;;;;x;x;x;;;;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiegrasland;hg-2;productiegrasland;graslprod;r;x;x;;;;;;;x;;;;;x;;;;;;;;;;x;x;x;;;;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiegrasland;hg-2;productiegrasland;graslprod;g;x;x;;;;;;;x;;;;;x;;;;;;;;;;x;x;x;;;;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij productiegrasland;hg-2;productiegrasland;graslprod;m;x;x;;;;;;;x;;;;;x;;;;;;;;;;x;x;x;;;;;;x;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij struweel;vi.2;struweel;struweel;r;x;x;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij struweel;vi.2;struweel;struweel;g;x;x;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij struweel;vi.2;struweel;struweel;m;x;x;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij struweel;hb-2;struweel;struweel;r;x;x;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij struweel;hb-2;struweel;struweel;g;x;x;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Oever of overstromingsvrij struweel;hb-2;struweel;struweel;m;x;x;;;;;x;;;;;;;;;;;;;;;;;x;;;;;;x;x;;;;
+Oevers/overstromingsvrije zone;Soortenarme moerasruigte/overstromingsvrij riet;v.2;ruigte;;g;x;;;;;;;x;;;;;;;;;;;;;;;;x;;;;;;x;;;;;
+Oevers/overstromingsvrije zone;Vegetatie met lage bedekking (5 - 25%) in oever of overstromingsvrij;vii.4;vegetatie met lage bedekking (5 - 25%);pionier;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers/overstromingsvrije zone;Vegetatie met lage bedekking (5 - 25%) in oever of overstromingsvrij;vii.4;vegetatie met lage bedekking (5 - 25%);pionier;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers/overstromingsvrije zone;Vegetatie met lage bedekking (5 - 25%) in oever of overstromingsvrij;vii.4;vegetatie met lage bedekking (5 - 25%);pionier;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers/overstromingsvrije zone;Vegetatie met lage bedekking (5 - 25%) in oever of overstromingsvrij;hp-1;vegetatie met lage bedekking (5 - 25%);pionier;r;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers/overstromingsvrije zone;Vegetatie met lage bedekking (5 - 25%) in oever of overstromingsvrij;hp-1;vegetatie met lage bedekking (5 - 25%);pionier;g;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oevers/overstromingsvrije zone;Vegetatie met lage bedekking (5 - 25%) in oever of overstromingsvrij;hp-1;vegetatie met lage bedekking (5 - 25%);pionier;m;;;;x;;;;;;;;;;;;;;;;;;;x;;;;;;x;;;;;x;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard akker;o-ua-1;akker;akker;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard bebouwd;o-ua-2;bebouwd/verhard;bebverh;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;x;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard grasland (natuurlijk of productie);o-ug-1-2;productie/natuurlijk grasland;graslnat;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard hoogstamboomgaard;o-ub-4;boomgaard (hoog-of halfstam);boomgrd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard laagstamboomgaard;o-ub-5;laagstam boom-/fruitgaarden en kwekerijen;boomgrd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard natuurlijk bos;o-ub-1;natuurlijk bos;bosnat;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard natuurlijk grasland;o-ug-1;natuurlijk grasland;graslnat;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard onbegroeid (antropogeen);rest-o-u;onbegroeid (antropogeen);onbgrtijd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;x;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard onberoeid (natuurlijk);o-uk-1;onbegroeid (natuurlijk);onbgrtijd;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard productiebos;o-ub-3;productiebos;bosprod;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard productiegrasland;o-ug-2;productiegrasland;graslprod;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;;;x;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard ruigte;o-ur-1;ruigte;ruigte;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard struweel;o-ub-2;struweel;struweel;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Oeverwal/hoge uiterwaard;Oeverwal of uiterwaard vegetatie met lage bedekking (5 - 25%);o-up-1;vegetatie met lage bedekking (5-25%);pionier;r;;;;;x;;;;;;;;;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij bebouwd;ha-2;bebouwd/verhard;bebverh;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;x;;
+Overstromingsvrije zone;Overstromingsvrij bebouwd;ha-2;bebouwd/verhard;bebverh;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;x;;
+Overstromingsvrije zone;Overstromingsvrij bebouwd;ha-2;bebouwd/verhard;bebverh;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;x;;
+Overstromingsvrije zone;Overstromingsvrij grasland (natuurlijk of productie);hg-1-2;productie/natuurlijk grasland;graslnat;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrij grasland (natuurlijk of productie);hg-1-2;productie/natuurlijk grasland;graslnat;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrij grasland (natuurlijk of productie);hg-1-2;productie/natuurlijk grasland;graslnat;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrij hardhoutooibos;hb-6;hardhoutooibos;bosnat;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij natuurlijk bos;hb-1;natuurlijk bos;bosnat;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij natuurlijk bos;hb-1;natuurlijk bos;bosnat;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij natuurlijk bos;hb-1;natuurlijk bos;bosnat;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij natuurlijk grasland;hg-1;natuurlijk grasland;graslnat;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij natuurlijk grasland;hg-1;natuurlijk grasland;graslnat;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij natuurlijk grasland;hg-1;natuurlijk grasland;graslnat;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij onbegroeid (antropogeen);rest-h;onbegroeid (antropogeen);onbgrtijd;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrij onbegroeid (antropogeen);rest-h;onbegroeid (antropogeen);onbgrtijd;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrij onbegroeid (antropogeen);rest-h;onbegroeid (antropogeen);onbgrtijd;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrij productiebos;hb-3;productiebos;bosprod;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrij productiebos;hb-3;productiebos;bosprod;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrij productiebos;hb-3;productiebos;bosprod;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrij productiegrasland;hg-2;productiegrasland;graslprod;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrij productiegrasland;hg-2;productiegrasland;graslprod;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrij productiegrasland;hg-2;productiegrasland;graslprod;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrij riet;hm-1;riet en overige helofyten;riet;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;x;;;;
+Overstromingsvrije zone;Overstromingsvrij riet;hm-1;riet en overige helofyten;riet;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;x;;;;
+Overstromingsvrije zone;Overstromingsvrij riet;hm-1;riet en overige helofyten;riet;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;x;;;;
+Overstromingsvrije zone;Overstromingsvrij struweel;hb-2;struweel;struweel;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij struweel;hb-2;struweel;struweel;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij struweel;hb-2;struweel;struweel;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrij tijdelijk kaal;rest-o-t;rest;;g;x;x;x;;;;;;;x;;;;;x;;x;x;;;;;;x;x;x;x;;;x;x;x;;;
+Overstromingsvrije zone;Overstromingsvrije akker;ha-1;akker;akker;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije akker;ha-1;akker;akker;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije akker;ha-1;akker;akker;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije hoogstamboomgaard;hb-4;boomgaard (hoog-of halfstam);boomgrd;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije hoogstamboomgaard;hb-4;boomgaard (hoog-of halfstam);boomgrd;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije hoogstamboomgaard;hb-4;boomgaard (hoog-of halfstam);boomgrd;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije laagstamboomgaard;hb-5;laagstam boom-/fruitgaarden en kwekerijen;boomgrd;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije laagstamboomgaard;hb-5;laagstam boom-/fruitgaarden en kwekerijen;boomgrd;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije laagstamboomgaard;hb-5;laagstam boom-/fruitgaarden en kwekerijen;boomgrd;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;x;;;
+Overstromingsvrije zone;Overstromingsvrije ruigte;hr-1;ruigte;ruigte;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrije ruigte;hr-1;ruigte;ruigte;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrije ruigte;hr-1;ruigte;ruigte;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;x;x;;;;
+Overstromingsvrije zone;Overstromingsvrije vegetatie met lage bedekking (5 - 25%);hp-1;vegetatie met lage bedekking (5-25%);pionier;r;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrije vegetatie met lage bedekking (5 - 25%);hp-1;vegetatie met lage bedekking (5-25%);pionier;g;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;
+Overstromingsvrije zone;Overstromingsvrije vegetatie met lage bedekking (5 - 25%);hp-1;vegetatie met lage bedekking (5-25%);pionier;m;;;;;x;;;;;;;;x;;;;;;;;;;;;;;;x;;;;;;x;

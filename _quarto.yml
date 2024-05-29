@@ -1,0 +1,50 @@
+project:
+  type: book
+  output-dir: docs
+
+execute: 
+  echo: false
+  warning: false
+  message: false
+
+book:
+  title: "Ecotopensystematiek"
+  author: "Deltares, Ministery of Infrastructure and Water Management"
+  date: today
+  page-navigation: true
+  favicon: "assets/icon-deltares.svg"
+  page-footer: 
+    background: "#2E89BF"
+    center: "Ecotopensystematiek"
+  sidebar:
+    footer: custom-component/sidebar-footer.html
+  navbar: 
+    background: "#2E89BF"
+    pinned: true
+  chapters:
+    - index.qmd
+    - inleiding.qmd
+    - indelingskenmerken.qmd
+toc: true
+toc-depth: 2
+# reference-location: margin
+# citation-location: margin
+# cap-location: margin
+number-sections: true
+number-depth: 1
+bibliography:
+  - references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+  # pdf:
+  #   include-in-header: 
+  #     - preamble.tex
+  #   documentclass: scrreprt
+  #   latex-auto-install: true
+  #   pdf-engine: xelatex
+
+editor: source
+

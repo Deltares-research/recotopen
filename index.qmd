@@ -1,0 +1,19 @@
+---
+always_allow_html: true
+---
+
+::: {.callout-note appearance="simple"}
+## Disclaimer
+
+Deze rapportage is onder constructie en op dit moment bedoeld als discussiestuk. Er mag niet naar gerefereerd worden. Elk gebruik van deze rapportage is voor eigen risico.
+:::
+
+# Preface {#sec-preface .unnumbered}
+
+Waarom deze rapportage Ecotopensystematiek?[^1]
+
+[^1]: \*Ecotopensystematiek\* is een werktitel. In overleg met belanghebbende partijen wordt de rapportage verder vormgegeven.
+
+::: column-margin
+![](images/MLP_027-low-res2.png)
+:::

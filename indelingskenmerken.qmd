@@ -1,0 +1,8 @@
+---
+title: "Indelingskenmerken"
+format: html
+editor: visual
+---
+
+# Indelingskenmerken
+

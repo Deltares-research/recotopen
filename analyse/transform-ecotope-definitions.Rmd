@@ -1,0 +1,236 @@
+---
+title: "Ecotopen inlezen"
+output: html_notebook
+---
+
+```{r setup}
+require(readxl)
+require(tidyverse)
+require(tidytext)
+require(skimr)
+
+datadir <- '../data'
+resultdir <- '../resultaat'
+
+tabelMaaikeURL <- 'deltares/ecotopen/Ecotopensystematiek RES compleet_v2.xlsx'
+vertaaltabelURL <- 'rijkswaterstaat/ecotopen/Vertaaltabel_alle_systemen_v20200303_MM.xlsx'
+```
+
+Ecotopensystematiek is lastiger in te lezen doordat er meerdere kolomnamen en indelingen zijn.
+
+Kan ik de vertaaltabel omzetten naar zo'n kruistabel als in Ecotopensystematiek?
+
+## Ecotopentabellen
+
+We beginnen met inlezen van de "vertaaltabel" (RWS). Hierin staan de relaties tussen de verschillende ecotopen en de klassen van omgevingsvariabelen.
+
+```{r}
+list.files("../data/source")
+readxl::excel_sheets(path = file.path(datadir, vertaaltabelURL))
+vertaaltabel <- readxl::read_excel(file.path(datadir, vertaaltabelURL), sheet = "VERTAALTABEL")
+```
+De vertaaltabel bevat een aantal onregelmatigheden die het moeilijk maken om het automatisch te verwerken, en om een snelle vergelijking te maken tussen de criteria van verschillende ecotopen. 
+
+*   Er zijn vaak meerdere waarden per veld, gescheiden door een "/". De waarden worden gescheiden in onderstaand scriptblok.
+*   Wanneer er meerdere waarden zijn, is soms alleen niet alles compleet. Bijv "matig / sterk dynamisch". Bij splitsen van velden op basis van "/" worden sommige waarden incompleet. Dit is in het volgende scriptblok aangevuld. 
+
+
+Een paar verduidelijkingen op de codes
+
+Veld *Systeem*:
+r - Rivier
+g - Getijdenwateren
+m - Meren
+(k - Kanalen) zou theoretisch voor kunnen komen, maar komt niet voor
+
+
+Veld **mech_dyn\**. Dit veld komt voor in vier vormen
+*mech_dyn*
+*mech_dyn_o*
+*mech_dyn_t*
+*mech_dyn_a*
+refererend aan
+o = oever
+t = terrestrisch
+a = aquatisch
+
+*mech_dyn* is vaak gelijk aan een van de drie anderen, maar niet altijd. 
+
+Er wordt inconsequent al dan niet hoofdletters als eerste letter gehanteerd. Besloten is om alle inhoud behalve de ecotopen en ecotoopcoderingen om te zetten naar kleine letters.
+
+
+```{r}
+
+vertaaltabel2 <- vertaaltabel %>%
+  mutate(across(7:18, tolower)) %>%
+  tidytext::unnest_tokens(hydrologie, HYDROLOGIE, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(mech_dyn, MECH_DYN, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(mech_dyn_t, MECH_DYN_T, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(mech_dyn_o, MECH_DYN_O, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(mech_dyn_a, MECH_DYN_A, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(eco_code, ECO_CODE, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(systeem, Systeem, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(zout_cat, ZOUT_CAT, token = 'regex', pattern="/") %>%
+  tidytext::unnest_tokens(beheer, BEHEER, token = 'regex', pattern="/") %>%
+  mutate(across(where(is.character), str_trim))
+
+# check values mech_dyn
+vertaaltabel2 %>% select(starts_with("mech_dyn")) %>% pivot_longer(starts_with("mech_dyn")) %>% distinct(value)
+# repair values
+vertaaltabel2 <- vertaaltabel2 %>%
+  mutate(
+    across(starts_with("mech_dyn"), 
+           function(x) {
+             x = case_when(
+               x == "sterk" ~ "sterk dynamisch", 
+               x == "zeer sterk" ~ "zeer sterk dynamisch", 
+               x == "laag" ~ "laag dynamisch", 
+               x == "matig" ~ "matig dynamisch",
+               .default = as.character(x)
+             )
+           } 
+    )) 
+# check
+vertaaltabel2 %>%
+  select(starts_with("mech_dyn")) %>% 
+  pivot_longer(starts_with("mech_dyn")) %>% 
+  distinct(value)
+
+
+vertaaltabel2 %>% distinct(ECOTOOP, VEG_STRUCT, eco_code) %>% View()
+vertaaltabel2 %>% distinct(eco_code) # ok
+vertaaltabel2 %>% distinct(systeem) # ok
+vertaaltabel2 %>% distinct(zout_cat) # ok
+
+vertaaltabel2 %>% distinct(beheer) # niet ok
+# repair values beheer
+vertaaltabel2 <- vertaaltabel2 %>%
+  mutate(
+    beheer =
+      case_when(
+               beheer == "extensief" ~ "extensief beheer", 
+               beheer == "nauwelijks tot geen" ~ "nauwelijks tot geen beheer", 
+               beheer == "intensief" ~ "intensief beheer", 
+               beheer == "onbekend, klopt dit? in cod matrix staat anders." ~ "onbekend",
+               .default = as.character(beheer)
+    )) 
+# check
+vertaaltabel2 %>% distinct(beheer)
+
+vertaaltabel2 %>% distinct(hydrologie) # niet zeker of dit correct is. 
+
+
+
+
+
+
+
+```
+
+
+## Unnamed columns
+
+There are two unnamed columns (identified as "...#", where # is the number of the column) in the table. Let's look at the content and how often each content occurs. 
+
+```{r unnamedColumns}
+vertaaltabel2 %>% group_by (eco_code, ...2, ...6) %>% summarize(n = n())  
+```
+
+## Draaitabellen
+
+Hieronder wordt een draaitabel geconstrueerd die vergelijkbaar is met "Maaike's tabel".
+
+
+```{r}
+
+draaitabel1 <- vertaaltabel2 %>% 
+  # filter(ZONERING == "Overstromingsvrije zone") %>% # pas eventueel filter toe
+  select(
+    ZONERING, 
+    VEG_STRUCT, 
+    eco_code, 
+    ECOTOOP, 
+    systeem, 
+    STRUCT_COD, 
+    mech_dyn_o, 
+    hydrologie, 
+    zout_cat, 
+    beheer
+    ) %>% 
+  distinct() %>%
+  pivot_longer(
+    cols = c(zout_cat, hydrologie, mech_dyn_o, beheer), 
+    names_to = "name", 
+    values_to = "value"
+  ) %>%
+  distinct() %>%
+  mutate(present = "x") %>%
+  unite("criterium", c(name, value)) %>%
+  pivot_wider(
+    id_cols = c(ZONERING, ECOTOOP, VEG_STRUCT, eco_code, systeem, STRUCT_COD),
+    names_from = criterium,
+    values_from = present
+  ) %>%
+  arrange(ZONERING, ECOTOOP) %>%
+  select(
+    any_of(
+      c(
+        'ZONERING',
+        'ECOTOOP',
+        'eco_code',
+        'VEG_STRUCT',
+        'STRUCT_COD',
+        'systeem',
+        'mech_dyn_o_gering dynamisch',
+        'mech_dyn_o_matig dynamisch',
+        'mech_dyn_o_sterk dynamisch',
+        'mech_dyn_o_onbekend',
+        'mech_dyn_o_NA',
+        'hydrologie_oever - supralittoraal of overstromingsvrij',
+        'hydrologie_oever - vochtig of overstromingsvrij',
+        'hydrologie_oever - vochtig',
+        'hydrologie_oever - drassig',
+        'hydrologie_oever - nat',
+        'hydrologie_oever - supralittoraal',
+        'hydrologie_oever -supralitoraal',
+        'hydrologie_overstromingsvrij',
+        'hydrologie_vochtig of overstromingsvrij',
+        'hydrologie_supralittoraal of overstromingsvrij',
+        'hydrologie_supralittoraal',
+        'hydrologie_vochtig',
+        'hydrologie_drassig',
+        'hydrologie_ondiep',
+        'hydrologie_matig diep',
+        'hydrologie_diep',
+        'hydrologie_zeer diep',
+        'hydrologie_onbekend',
+        'zout_cat_zoet',
+        'zout_cat_zwak brak',
+        'zout_cat_brak',
+        'zout_cat_zout',
+        'zout_cat_NA',
+        'zout_cat_onbekend',
+        'beheer_nauwelijks tot geen beheer',
+        'beheer_extensief beheer',
+        'beheer_intensief beheer',
+        'beheer_kunstmatig hard substraat',
+        'beheer_onbekend',
+        'beheer_water'
+      )
+    )
+  ) %>%
+  replace(is.na(.), "")
+
+
+write_csv2(draaitabel1, file.path(resultdir, "draaitabel_alles.csv"))
+```
+
+```{r}
+
+```
+
+
+
+
+
+
