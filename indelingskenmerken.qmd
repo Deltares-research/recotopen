@@ -14,15 +14,20 @@ draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
 
 draaitabel1 %>%
   filter(ZONERING == "Oevers") %>% 
+  # verwijder kolommen met alleen NA waarden
   select_if(~sum(!is.na(.)) > 0) %>%
+  # kombineer waarden voor systeem per ecotoop op een regel
   pivot_wider(names_from = systeem, values_from = systeem) %>%
   replace(is.na(.), "") %>%
   unite("systeem", c(g,r,m), sep = "") %>%
+  # zet kolom systeem weer op de goede plek
   relocate(systeem, .after = STRUCT_COD) %>%
+  # verwijder onnodige kolommen
   select(
     -ZONERING,
     -STRUCT_COD
     ) %>%
+  # maak mooie tabel voor website rapportage
   kableExtra::kable(caption = 'Draaitabel voor zonering "Oevers"') %>%
   kableExtra::kable_classic_2() 
 
