@@ -1,8 +1,39 @@
----
-title: "Indelingskenmerken"
-format: html
-editor: visual
----
 
 # Indelingskenmerken
+
+```{r read-data}
+library(tidyverse)
+resultdir <- 'resultaat'
+draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
+```
+
+
+## Oevers
+
+```{r print-table-oevers}
+
+draaitabel1 %>%
+  filter(ZONERING == "Oevers") %>% 
+  select_if(~sum(!is.na(.)) > 0) %>%
+  pivot_wider(names_from = systeem, values_from = systeem) %>%
+  replace(is.na(.), "") %>%
+  unite("systeem", c(g,r,m), sep = "") %>%
+  relocate(systeem, .after = STRUCT_COD) %>%
+  select(
+    -ZONERING,
+    -STRUCT_COD
+    ) %>%
+  kableExtra::kable(caption = 'Draaitabel voor zonering "Oevers"') %>%
+  kableExtra::kable_classic_2() 
+
+```
+
+
+
+
+
+
+## Aquatisch
+
+
 

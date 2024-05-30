@@ -1,0 +1,20 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# recotopen
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Het doel van de recotopen repository is om het ecotopenstelsel vast te leggen en documenteren. 
+

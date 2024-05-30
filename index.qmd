@@ -10,9 +10,9 @@ Deze rapportage is onder constructie en op dit moment bedoeld als discussiestuk.
 
 # Preface {#sec-preface .unnumbered}
 
-Waarom deze rapportage Ecotopensystematiek?[^1]
+Waarom deze rapportage Ecotopensystematiek?[^index-1]
 
-[^1]: \*Ecotopensystematiek\* is een werktitel. In overleg met belanghebbende partijen wordt de rapportage verder vormgegeven.
+[^index-1]: \*Ecotopensystematiek\* is een werktitel. In overleg met belanghebbende partijen wordt de rapportage verder vormgegeven.
 
 ::: column-margin
 ![](images/MLP_027-low-res2.png)
