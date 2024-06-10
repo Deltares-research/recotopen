@@ -5,29 +5,47 @@
 ```{r read-data}
 library(tidyverse)
 library(DT)
+
 options(DT.options = list(pageLength = 5, language = list(search = 'Filter:')))
 resultdir <- 'resultaat'
+
 draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
 
-maak_kenmerkentabel <- function(df = draaitabel1, gekozen_zonering) {
+```
+
+
+```{r tabelselectiefunctie}
+
+maak_kenmerkentabel <- function(
+    df = draaitabel1, 
+    caption = NULL,
+    gekozen_systeem = c("r", "g", "m"), 
+    gekozen_zonering = c(
+      'Aquatisch',        
+      'Overstromingsvrije zone',       
+      'Oevers',                        
+      'Oevers/overstromingsvrije zone',
+      'Oeverwal/hoge uiterwaard',      
+      'Hoge uiterwaard'
+    )
+) {
   
   draaitabel2 <- draaitabel1 %>%
     # filter regels uit de tabel op basis van inhoud
+    filter(if(!is.null(gekozen_systeem)) systeem %in% gekozen_systeem else TRUE) %>%
+    filter(if(!is.null(gekozen_zonering)) ZONERING %in% gekozen_zonering else TRUE) %>%
+    # filter(systeem %in% gekozen_systeem) %>%
     filter(ZONERING %in% gekozen_zonering) %>%
     # verwijder kolommen met alleen NA waarden
-    select_if(~sum(!is.na(.)) > 0) %>%
-    # kombineer waarden voor systeem per ecotoop op een regel
-    pivot_wider(names_from = systeem, values_from = systeem) %>%
-    replace(is.na(.), "") %>%
-    unite("systeem", any_of(c('g','r','m')), sep = "") %>%
-    # zet kolom systeem weer op de goede plek
-    relocate(systeem, .after = STRUCT_COD) %>%
+    select_if(~sum(!is.na(.)) > 0)
+    # # kombineer waarden voor systeem per ecotoop op een regel
+    # pivot_wider(names_from = systeem, values_from = systeem) %>%
+    # replace(is.na(.), "") %>%
+    # unite("systeem", any_of(c('g','r','m')), sep = "") %>%
+    # # zet kolom systeem weer op de goede plek
+    # relocate(systeem, .after = STRUCT_COD) %>%
     # verwijder onnodige kolommen
-    select(
-      -ZONERING,
-      -STRUCT_COD
-      )
-  
+
   # draaitabel2 %>%
   #   # maak mooie tabel voor website rapportage
   #   kableExtra::kable(caption = 'Draaitabel voor zonering "Oevers"') %>%
@@ -38,6 +56,7 @@ maak_kenmerkentabel <- function(df = draaitabel1, gekozen_zonering) {
 
   datatable(
     draaitabel2, 
+    caption = caption,
     rownames = F, 
     class = c("compact"),
     options = list(
@@ -87,34 +106,90 @@ tekst
 tekst
 
 
-## Oevers
+## Rivieren
 
 .. iets over indeling oevers
 
 ```{r print-table-oevers}
 
-maak_kenmerkentabel(draaitabel1, "Oevers")
+mijnsysteem = "r"
 
+mogelijke_zoneringen <- draaitabel1 %>% 
+  filter(systeem == mijnsysteem) %>% 
+distinct(ZONERING) %>%
+  unlist() %>%
+  unname()
+
+htmltools::tagList(
+  lapply(mogelijke_zoneringen, function(x) 
+    maak_kenmerkentabel(
+      draaitabel1, 
+      gekozen_systeem = mijnsysteem, 
+      gekozen_zonering = x,
+      caption = paste('Draaitabel ecotopensystematiek voor systeem ', mijnsysteem, 'en zonering "', x, '"')
+    )
+  )
+)
 ```
 
 
 
 
 
-## Aquatisch
+## Meren
 
 
 ```{r print-table-aquatisch}
 
-maak_kenmerkentabel(draaitabel1, "Aquatisch")
+mijnsysteem = "m"
 
+mogelijke_zoneringen <- draaitabel1 %>% 
+  filter(systeem == mijnsysteem) %>% 
+  distinct(ZONERING) %>%
+  unlist() %>%
+  unname()
+
+htmltools::tagList(
+  lapply(mogelijke_zoneringen, function(x) 
+    maak_kenmerkentabel(
+      draaitabel1, 
+      gekozen_systeem = mijnsysteem, 
+      gekozen_zonering = x,
+      caption = paste('Draaitabel ecotopensystematiek voor systeem ', mijnsysteem, 'en zonering "', x, '"')
+    )
+  )
+)
 ```
 
 
-## Hoge Uiterwaard
+## Getijdenwateren
+
+
 
 ```{r print-table-hoge-uiterwaard}
 
-maak_kenmerkentabel(draaitabel1, "Hoge uiterwaard")
+# create several tables in one code chunk
+# https://github.com/rstudio/DT/issues/67
+
+# todo, check programmatically which zoneringen occur in selection Systeem == "g" 
+
+mijnsysteem = "g"
+
+mogelijke_zoneringen <- draaitabel1 %>% 
+  filter(systeem == mijnsysteem) %>% 
+  distinct(ZONERING) %>%
+  unlist() %>%
+  unname()
+
+htmltools::tagList(
+  lapply(mogelijke_zoneringen, function(x) 
+    maak_kenmerkentabel(
+      draaitabel1, 
+      gekozen_systeem = c("g"), 
+      gekozen_zonering = x,
+      caption = paste('Draaitabel ecotopensystematiek voor systeem ', mijnsysteem, 'en zonering "', x, '"')
+    )
+  )
+)
 
 ```
