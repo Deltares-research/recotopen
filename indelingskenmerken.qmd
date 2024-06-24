@@ -184,7 +184,7 @@ htmltools::tagList(
 
 ## Beschrijving van de indelingskenmerken
 
-```{r read-data}
+```{r read-data2}
 library(tidyverse)
 resultdir <- 'resultaat'
 draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
@@ -200,7 +200,7 @@ draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
 >
 > Elk systeem wordt ook apart beschreven
 
-## 3.1 Inleiding
+## 3.1 Inleiding {#sec-3.1-inleiding}
 
 Voor de structuur van dit aanvullend ecotopenstelsel wordt in aansluiting op de structuur van de bestaande Rijkswateren-Ecotopen-Stelsels een hierarchische indeling gevolgd (figuur 3). De hierarchie biedt de mogelijkheid om zowel de verschillende watersystemen als de verschillende ecotopen, en de daarbij onderscheiden eco-elementen, op een overzichtelijke wijze in een stelsel onder te brengen. Het gaat hier om een ruimtelijke hierarchie: groepen van watersystemen worden gekenmerkt door specifieke combinaties van ecotopen, die voorkomen in zich herhalende ruimtelijke patronen. Op verschillende niveau's worden verschillende indelingskenmerken gehanteerd. Deze indelingskenmerken worden opgedeeld in klassen op basis van ecologisch bepaalde grenzen. Op het laagste niveau worden eco-elementen onderscheiden op basis van het voorkomen van een bepaalde soort(groep). De Nederlandse rijkswateren zijn ingedeeld in watersystemen op basis van de positionele factoren stromingsrichting en saliniteit, zie paragraaf 3.2 en 3.3. Ecotopen worden onderscheiden op basis van conditionele factoren, waarbij het zoutgehalte echter zorgt voor een verdere onderverdeling binnen de getijdenwateren en de kanalen. In paragraaf 3.4 wordt het dynamisch karakter uitgewerkt, in paragraaf 3.5 de waterdiepte en in paragraaf 3.6 het bodemtype. In paragraaf 3.7 wordt ingegaan op het onderscheiden van eco-elementen op basis van de aanwezigheid van soort(groep)en.
 
