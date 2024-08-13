@@ -5,38 +5,38 @@ eco_code;eco_code
 VEG_STRUCT;VEG_STRUCT
 STRUCT_COD;STRUCT_COD
 systeem;systeem
-mech_dyn_o_gering dynamisch;mech_dyn_o_gering dynamisch
-mech_dyn_o_matig dynamisch;mech_dyn_o_matig dynamisch
-mech_dyn_o_sterk dynamisch;mech_dyn_o_sterk dynamisch
-mech_dyn_o_onbekend;mech_dyn_o_onbekend
-mech_dyn_o_NA;mech_dyn_o_NA
-hydrologie_oever - supralittoraal of overstromingsvrij;hydrologie_oever - supralittoraal of overstromingsvrij
-hydrologie_oever - vochtig of overstromingsvrij;hydrologie_oever - vochtig of overstromingsvrij
-hydrologie_oever - vochtig;hydrologie_oever - vochtig
-hydrologie_oever - drassig;hydrologie_oever - drassig
-hydrologie_oever - nat;hydrologie_oever - nat
-hydrologie_oever - supralittoraal;hydrologie_oever - supralittoraal
-hydrologie_oever -supralitoraal;hydrologie_oever -supralitoraal
-hydrologie_overstromingsvrij;hydrologie_overstromingsvrij
-hydrologie_vochtig of overstromingsvrij;hydrologie_vochtig of overstromingsvrij
-hydrologie_supralittoraal of overstromingsvrij;hydrologie_supralittoraal of overstromingsvrij
-hydrologie_supralittoraal;hydrologie_supralittoraal
-hydrologie_vochtig;hydrologie_vochtig
-hydrologie_drassig;hydrologie_drassig
-hydrologie_ondiep;hydrologie_ondiep
-hydrologie_matig diep;hydrologie_matig diep
-hydrologie_diep;hydrologie_diep
-hydrologie_zeer diep;hydrologie_zeer diep
-hydrologie_onbekend;hydrologie_onbekend
-zout_cat_zoet;zout_cat_zoet
-zout_cat_zwak brak;zout_cat_zwak brak
-zout_cat_brak;zout_cat_brak
-zout_cat_zout;zout_cat_zout
-zout_cat_NA;zout_cat_NA
-zout_cat_onbekend;zout_cat_onbekend
-beheer_nauwelijks tot geen beheer;beheer_nauwelijks tot geen beheer
-beheer_extensief beheer;beheer_extensief beheer
-beheer_intensief beheer;beheer_intensief beheer
-beheer_kunstmatig hard substraat;beheer_kunstmatig hard substraat
-beheer_onbekend;beheer_onbekend
-beheer_water;beheer_water
+mech_dyn_o_gering dynamisch;MECH DYN OEVER - gering dynamisch
+mech_dyn_o_matig dynamisch;MECH DYN OEVER - matig dynamisch
+mech_dyn_o_sterk dynamisch;MECH DYN OEVER - sterk dynamisch
+mech_dyn_o_onbekend;MECH DYN OEVER - onbekend
+mech_dyn_o_NA;MECH DYN OEVER - onbekend
+hydrologie_oever - supralittoraal of overstromingsvrij;HYDROLOGIE OEVER - supralittoraal of overstromingsvrij
+hydrologie_oever - vochtig of overstromingsvrij;HYDROLOGIE OEVER - vochtig of overstromingsvrij
+hydrologie_oever - vochtig;HYDROLOGIE OEVER - vochtig
+hydrologie_oever - drassig;HYDROLOGIE OEVER - drassig
+hydrologie_oever - nat;HYDROLOGIE OEVER - nat
+hydrologie_oever - supralittoraal;HYDROLOGIE OEVER - supralittoraal
+hydrologie_oever -supralitoraal;HYDROLOGIE OEVER - supralitoraal
+hydrologie_overstromingsvrij;HYDROLOGIE - overstromingsvrij
+hydrologie_vochtig of overstromingsvrij;HYDROLOGIE - vochtig of overstromingsvrij
+hydrologie_supralittoraal of overstromingsvrij;HYDROLOGIE - supralittoraal of overstromingsvrij
+hydrologie_supralittoraal;HYDROLOGIE - supralittoraal
+hydrologie_vochtig;HYDROLOGIE - vochtig
+hydrologie_drassig;HYDROLOGIE - drassig
+hydrologie_ondiep;HYDROLOGIE - ondiep
+hydrologie_matig diep;HYDROLOGIE - matig diep
+hydrologie_diep;HYDROLOGIE - diep
+hydrologie_zeer diep;HYDROLOGIE - zeer diep
+hydrologie_onbekend;HYDROLOGIE - onbekend
+zout_cat_zoet;ZOUT CATEGORIE - zoet
+zout_cat_zwak brak;ZOUT CATEGORIE - zwak brak
+zout_cat_brak;ZOUT CATEGORIE - brak
+zout_cat_zout;ZOUT CATEGORIE - zout
+zout_cat_NA;ZOUT CATEGORIE - onbekend
+zout_cat_onbekend;ZOUT CATEGORIE - onbekend
+beheer_nauwelijks tot geen beheer;BEHEER - nauwelijks tot geen beheer
+beheer_extensief beheer;BEHEER - extensief beheer
+beheer_intensief beheer;BEHEER - intensief beheer
+beheer_kunstmatig hard substraat;BEHEER - kunstmatig hard substraat
+beheer_onbekend;BEHEER - onbekend
+beheer_water;BEHEER - water
