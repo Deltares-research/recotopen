@@ -25,6 +25,7 @@ book:
     - index.qmd
     - inleiding.qmd
     - indelingskenmerken.qmd
+    - overzichtstabellen.qmd
 toc: true
 toc-depth: 2
 # reference-location: margin

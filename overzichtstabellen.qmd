@@ -1,5 +1,3 @@
-
-
 ```{r read-data}
 library(tidyverse)
 library(DT)
@@ -8,6 +6,10 @@ options(DT.options = list(pageLength = 5, language = list(search = 'Filter:')))
 resultdir <- 'resultaat'
 
 draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
+
+## do only once, to create a mapping table for the names
+# tibble(originalName = names(draaitabel1)) %>%
+#   write_csv2(file.path("data/deltares/names_mapping", "names_draaitabel1.csv"))
 
 ```
 
@@ -95,12 +97,6 @@ maak_kenmerkentabel <- function(
 }
 
 ```
-
-Indelingskenmerken zijn gedocumenteerd in ...
-
-tekst
-
-tekst
 
 ## Rivieren
 
