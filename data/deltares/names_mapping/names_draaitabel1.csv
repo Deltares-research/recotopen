@@ -1,0 +1,42 @@
+originalName;niceName
+ZONERING;ZONERING
+ECOTOOP;ECOTOOP
+eco_code;eco_code
+VEG_STRUCT;VEG_STRUCT
+STRUCT_COD;STRUCT_COD
+systeem;systeem
+mech_dyn_o_gering dynamisch;mech_dyn_o_gering dynamisch
+mech_dyn_o_matig dynamisch;mech_dyn_o_matig dynamisch
+mech_dyn_o_sterk dynamisch;mech_dyn_o_sterk dynamisch
+mech_dyn_o_onbekend;mech_dyn_o_onbekend
+mech_dyn_o_NA;mech_dyn_o_NA
+hydrologie_oever - supralittoraal of overstromingsvrij;hydrologie_oever - supralittoraal of overstromingsvrij
+hydrologie_oever - vochtig of overstromingsvrij;hydrologie_oever - vochtig of overstromingsvrij
+hydrologie_oever - vochtig;hydrologie_oever - vochtig
+hydrologie_oever - drassig;hydrologie_oever - drassig
+hydrologie_oever - nat;hydrologie_oever - nat
+hydrologie_oever - supralittoraal;hydrologie_oever - supralittoraal
+hydrologie_oever -supralitoraal;hydrologie_oever -supralitoraal
+hydrologie_overstromingsvrij;hydrologie_overstromingsvrij
+hydrologie_vochtig of overstromingsvrij;hydrologie_vochtig of overstromingsvrij
+hydrologie_supralittoraal of overstromingsvrij;hydrologie_supralittoraal of overstromingsvrij
+hydrologie_supralittoraal;hydrologie_supralittoraal
+hydrologie_vochtig;hydrologie_vochtig
+hydrologie_drassig;hydrologie_drassig
+hydrologie_ondiep;hydrologie_ondiep
+hydrologie_matig diep;hydrologie_matig diep
+hydrologie_diep;hydrologie_diep
+hydrologie_zeer diep;hydrologie_zeer diep
+hydrologie_onbekend;hydrologie_onbekend
+zout_cat_zoet;zout_cat_zoet
+zout_cat_zwak brak;zout_cat_zwak brak
+zout_cat_brak;zout_cat_brak
+zout_cat_zout;zout_cat_zout
+zout_cat_NA;zout_cat_NA
+zout_cat_onbekend;zout_cat_onbekend
+beheer_nauwelijks tot geen beheer;beheer_nauwelijks tot geen beheer
+beheer_extensief beheer;beheer_extensief beheer
+beheer_intensief beheer;beheer_intensief beheer
+beheer_kunstmatig hard substraat;beheer_kunstmatig hard substraat
+beheer_onbekend;beheer_onbekend
+beheer_water;beheer_water
