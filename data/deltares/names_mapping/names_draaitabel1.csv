@@ -9,7 +9,7 @@ mech_dyn_o_gering dynamisch;MECH DYN OEVER - gering dynamisch
 mech_dyn_o_matig dynamisch;MECH DYN OEVER - matig dynamisch
 mech_dyn_o_sterk dynamisch;MECH DYN OEVER - sterk dynamisch
 mech_dyn_o_onbekend;MECH DYN OEVER - onbekend
-mech_dyn_o_NA;MECH DYN OEVER - onbekend
+mech_dyn_o_NA;MECH DYN OEVER - nvt
 hydrologie_oever - supralittoraal of overstromingsvrij;HYDROLOGIE OEVER - supralittoraal of overstromingsvrij
 hydrologie_oever - vochtig of overstromingsvrij;HYDROLOGIE OEVER - vochtig of overstromingsvrij
 hydrologie_oever - vochtig;HYDROLOGIE OEVER - vochtig
@@ -32,7 +32,7 @@ zout_cat_zoet;ZOUT CATEGORIE - zoet
 zout_cat_zwak brak;ZOUT CATEGORIE - zwak brak
 zout_cat_brak;ZOUT CATEGORIE - brak
 zout_cat_zout;ZOUT CATEGORIE - zout
-zout_cat_NA;ZOUT CATEGORIE - onbekend
+zout_cat_NA;ZOUT CATEGORIE - nvt
 zout_cat_onbekend;ZOUT CATEGORIE - onbekend
 beheer_nauwelijks tot geen beheer;BEHEER - nauwelijks tot geen beheer
 beheer_extensief beheer;BEHEER - extensief beheer
