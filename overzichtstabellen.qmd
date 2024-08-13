@@ -1,3 +1,5 @@
+# Overzichtstabellen {#sec-overzichtstabellen}
+
 ```{r read-data}
 library(tidyverse)
 library(DT)
@@ -5,11 +7,20 @@ library(DT)
 options(DT.options = list(pageLength = 5, language = list(search = 'Filter:')))
 resultdir <- 'resultaat'
 
-draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
+draaitabel <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
 
 ## do only once, to create a mapping table for the names
 # tibble(originalName = names(draaitabel1)) %>%
 #   write_csv2(file.path("data/deltares/names_mapping", "names_draaitabel1.csv"))
+
+namesMapping <- read_csv2(file.path("data/deltares/names_mapping", "names_draaitabel1.csv"))
+
+lookup = namesMapping$originalName
+names(lookup) = namesMapping$niceName
+
+draaitabel1 <- draaitabel %>%
+  rename(all_of(lookup))
+
 
 ```
 
@@ -100,8 +111,6 @@ maak_kenmerkentabel <- function(
 
 ## Rivieren
 
-.. iets over indeling oevers
-
 ```{r print-table-oevers}
 
 mijnsysteem = "r"
@@ -122,6 +131,7 @@ htmltools::tagList(
     )
   )
 )
+
 ```
 
 ## Meren
@@ -178,10 +188,3 @@ htmltools::tagList(
 
 ```
 
-## Beschrijving van de indelingskenmerken
-
-```{r read-data2}
-library(tidyverse)
-resultdir <- 'resultaat'
-draaitabel1 <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
-```
