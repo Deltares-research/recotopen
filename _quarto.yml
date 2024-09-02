@@ -28,6 +28,11 @@ book:
     - overzichtstabellen.qmd
 toc: true
 toc-depth: 2
+crossref:
+  fig-title: Figuur     # (default is "Figure")
+  fig-prefix: figuur 
+  tbl-title: Tabel     # (default is "Table")
+  tbl-prefix: tabel
 # reference-location: margin
 # citation-location: margin
 # cap-location: margin

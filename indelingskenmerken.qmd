@@ -1,3 +1,5 @@
+{{< include _common.qmd >}}
+
 # Indelingskenmerken
 
 > Dit geheel is rechtstreekse kopie van het rapport, dit moet op de een of andere manier duideljk worden. Er moet dan een apart hoofdstuk komen met de recente versie met updates (welke updates er geweest zijn is nog niet precies helder, moet ook blijken uit de vergelijking van de draaitabel met de tabellen en indeling in het rapport, er zijn mogelijk ecotopen bijgekomen.
@@ -6,7 +8,7 @@
 >
 > De draaitabel zelf staat in een ander hoofdstuk waarin je per systeem de ecotopen ziet
 >
-> ELke Ecotoop in de draaitabel is ook aanklikbaar en verwijst naar een beschrijving van het ecotoop met soorten.
+> Elke Ecotoop in de draaitabel is ook aanklikbaar en verwijst naar een beschrijving van het ecotoop met soorten.
 >
 > Elk systeem wordt ook apart beschreven
 
@@ -38,17 +40,99 @@ De invloed van zout op het ecologisch functioneren bestaat uit verschillende com
 
 -   Euhaliene, zoute of mariene zone. Deze zone bevindt zich in het mondingsgebied van het estuarium en wordt gekenmerkt door sterke getijstromen. Er vindt alleen sedimentatie van zandige deeltjes plaats. De saliniteit wijkt niet veel af van die van de zee (\> 18 g CM). Deze zone wordt gekenmerkt door mariene soorten.
 
-TABEL 1 INDELING RIVIER EN GETIJDEWATEREN
+```{r}
+#| label: tbl-salinity-classes
+#| tbl-cap: "Indeling rivier en getijdenwateren gebaseerd op saliniteit."
+#| warning: false
+#| message: false
+#| echo: false
 
-De getijdenwateren worden in dit rapport onderverdeeld naar zoet, zwak brak en brak. Zoet water heeft als bovengrens 0,3 g CM. Zwak brak ligt in de range van 0,3 tot 3 en brak van 3 tot 10 g CM. Voor kanalen is het onderscheid tussen de verschillende brakke zones niet gemaakt. De indeling is gebaseerd op enerzijds de ecologische verschillen tussen gebieden en anderzijds het werkbaar houden van het stelsel in verband met het aantal ecotopen.
+salinity_table <- 
+  tibble(
+    `Zonering (invloed alleen NaCI)` = c(
+      'Rivier',
+      'Zoetwatergetijdezone', 
+      'Oligohaliene zone', 
+      'Mesohaliene zone', 
+      'Polyhaliene zone', 
+      'Euhaliene zone', 
+      'Hyperhaliene zone'
+    ),
+    `Saliniteit (g CI7I)` = c(
+      '<0,3',
+      '<0,3',
+      '0.3-3',
+      '3-10',
+      '10-18',
+      '18-24',
+      '>24'
+    ),
+    Klasse = c(
+      'zoet',
+      'zoet',
+      '(zwak) brak',
+      'brak',
+      '(sterk) brak',
+      'zout',
+      'zout'
+    )
+  )
+
+knitr::kable(salinity_table)
+```
+
+De getijdenwateren worden in dit rapport onderverdeeld naar zoet, zwak brak en brak. Zoet water heeft als bovengrens 0,3 g CM. Zwak brak ligt in de range van 0,3 tot 3 en brak van 3 tot 10 g CM. Voor kanalen is het onderscheid tussen de verschillende brakke zones niet gemaakt. De indeling is gebaseerd op enerzijds de ecologische verschillen tussen gebieden en anderzijds het werkbaar houden van het stelsel in verband met het aantal ecotopen (@tbl-salinity-classes).
 
 ## Mechanische dynamiek {#sec-mechanische-dynamiek}
 
-Mechanische dynamiek omvat alle krachten die worden uitgeoefend op zowel bodem, water, vegetatie als fauna van een ecotoop. Het gaat daarbij om erosie- en sedimentatieprocessen, transport van sediment (grind, zand en klei) en circulatiestromingen. Erosie- en sedimentatieprocessen staan niettemin centraal bij de mechanische dynamiek. In tabel 2 staan de factoren die de mate van dynamiek in verschillende hoofdwatersystemen van de Nederlandse rijkswateren bepalen, zoals die ook staan aangegeven in het RES, BES, MES en KES. De mechanische dynamiek wordt onderscheiden in vier verschillende klassen, waarbij de grenzen zijn gebaseerd op de kansen voor vestiging van vegetatie en/of bodemfauna (tabel 3).
+Mechanische dynamiek omvat alle krachten die worden uitgeoefend op zowel bodem, water, vegetatie als fauna van een ecotoop. Het gaat daarbij om erosie- en sedimentatieprocessen, transport van sediment (grind, zand en klei) en circulatiestromingen. Erosie- en sedimentatieprocessen staan niettemin centraal bij de mechanische dynamiek. In @tbl-watersysteem-dynamiek staan de factoren die de mate van dynamiek in verschillende hoofdwatersystemen van de Nederlandse rijkswateren bepalen, zoals die ook staan aangegeven in het RES, BES, MES en KES. De mechanische dynamiek wordt onderscheiden in vier verschillende klassen, waarbij de grenzen zijn gebaseerd op de kansen voor vestiging van vegetatie en/of bodemfauna (@tbl-dynamiek-klassen).
 
-TABEL 2
+```{r}
+#| label: tbl-watersysteem-dynamiek
+#| tbl-cap: "Globale vergelijking indeling voor mechanische dynamiek voor verschillende watersystemen."
+#| warning: false
+#| message: false
+#| echo: false
 
-TABEL 3
+watersysteemfactoren <- 
+  tibble(
+    Hoofdwatersysteem = c(
+      'Rivieren', 'Getijdenwateren', 'Meren', 'Kanalen'
+    ),
+    `Factoren die mechanische dynamiek bepalen` = c(
+      'wisselende afvoeren van water en sediment in de rivier (rivierregime). golfwerking door scheepvaart en daarnaast ook in mindere mate wind',
+'de dagelijkse richting van wisselende getijdenstromingen en de door de rivieren veroorzaakte onregelmatig wisselende afvoeren van water en sediment en daarnaast ook golfwerking door wind en scheepvaart',
+'wind, strijklengte, grootte van het meer, wisseling in waterstanden, waterdiepte, stroming, type substraat of bodem en de wisselende aan- en afvoer van water en sediment',
+'vaarbeweging van schepen en daarnaast ook de aan- en afvoer van water, stuw- en spuiregimes, lozingen en wind'
+    )
+  )
+
+knitr::kable(watersysteemfactoren)
+```
+
+
+```{r}
+#| label: tbl-dynamiek-klassen
+#| tbl-cap: "Afbakening van de verschillende klassen voor de factor dynamiek. op basis van biologische factoren."
+#| warning: false
+#| message: false
+#| echo: false
+
+dynamiekklassen <- 
+  tibble(
+    Klassen = c(
+      'Zeer sterk dynamisch (z)', 'Sterk dynamisch (s)', 'Dynamisch (d)', 'Laag dynamisch (I)'
+    ),
+    `Factoren die mechanische dynamiek bepalen` = c(
+      'geen sessiele soorten: vestiging van vegetatie wordt verhinderd; bodemfauna beperkt tot enkele beweeglljke soorten; bodem is meer dan decimeters diep continu in beweging; regelmatig nieuwe standplaatsen gevormd',
+      'enkel aangepaste sessiele soorten; weinig wormen. relatief veel kreeftachtigen; bodem is centimeters tot decimeters diep regel- matig in beweging',
+      'relatief hoge biomassa en diversiteit aan soorten; veel variatie aan substraat; er worden nieuwe standplaatsen gevormd; bodem In beweging maar vestiging of het voorkomen van vegetatie en/of bodemfauna wordt met blijvend verhinderd',
+      'voorkomen van vegetatie en/of bodemfauna wordt niet of nauwe- lijks befnvloed; relatief veel wormen'
+    )
+  )
+
+knitr::kable(dynamiekklassen)
+```
 
 **Zeer sterk dynamisch**. In de rivieren en de getijdenwateren kan het substraat tijdens grote afvoeren van de grote rivieren en/of door sterke getijdestromingen sterk van vorm veranderen door de vorming van banken en geulen. Het substraat is daarbij tot op een diepte varierend van enkele decimeters tot enkele meters regelmatig tot continu in beweging. Ondanks deze dynamiek op korte tijdschaal, kunnen netto veranderingen over een langere periode gering zijn. Zo speelt er bijvoorbeeld in het getijdengebied vaak een zekere cycliciteit in erosie en sedimentatie; 's winters overheerst erosie en 's zomers sedimentatie. Voor de rivieren en de getijdenwateren geldt dat de stroomsnelheden boven 1 m/s liggen. In meren en kanalen komen ecotopen met deze zeer sterke dynamiek niet voor. Indien de bodem niet kunstmatig verhard is bestaat het substraat onder deze omstandigheden vrijwel altijd uit zandig materiaal (korrelgrootte \> 63 pm) of schelpen. Vestiging van vegetatie is niet mogelijk en de bodemfauna is arm en bestaat vooral uit een klein aantal beweeglijke epibenthische soorten.
 
@@ -60,9 +144,30 @@ TABEL 3
 
 ## Waterdiepte {#sec-waterdiepte}
 
-De waterdiepte is van invloed op het voorkomen van verschillende biologische soortgroepen. Klassen worden onderscheiden op basis van ecologische criteria of door abiotische factoren die direct bepalend zijn voor de aanwezigheid van biota (tabel 4). Er worden aldus vier klassen onderscheiden, maar daarbij is er vanuit gegaan dat de klassegrenzen binnen een watersysteem niet gelijk hoeven te zijn (tabel 5, figuur 6). De grens tussen ondiep en droog is overgenomen uit het RES, MES, BES en KES om aansluiting met deze systemen te waarborgen. Op enkele andere punten wijkt de indeling af van eerdere stelsels.
+De waterdiepte is van invloed op het voorkomen van verschillende biologische soortgroepen. Klassen worden onderscheiden op basis van ecologische criteria of door abiotische factoren die direct bepalend zijn voor de aanwezigheid van biota (@tbl-waterdiepte-klassen). Er worden aldus vier klassen onderscheiden, maar daarbij is er vanuit gegaan dat de klassegrenzen binnen een watersysteem niet gelijk hoeven te zijn (tabel 5, figuur 6). De grens tussen ondiep en droog is overgenomen uit het RES, MES, BES en KES om aansluiting met deze systemen te waarborgen. Op enkele andere punten wijkt de indeling af van eerdere stelsels.
 
-TABEL 4
+```{r}
+#| label: tbl-waterdiepte-klassen
+#| tbl-cap: "Afbakening van de verschillende klassen voor de factor waterdiepte, op basis van biologische factoren."
+#| warning: false
+#| message: false
+#| echo: false
+
+waterdiepteklassen <- 
+  tibble(
+    Klassen = c(
+      'Zeer diep (z)', 'Diep (d)', 'Matig diep (m)', 'Ondiep (o)'
+    ),
+    `Begrenzende biologische factor` = c(
+      'langdurige stratificatie als gevolg van verschillen in temperatuur of zout-gehalte',
+      'geen langdurige stratificatie en geen uitgebreide bedekking mogelijk met waterplanten',
+      'uitgebreide bedekking met waterplanten mogelijk, doch niet met helofyten', 
+      'helofyten kunnen voorkomen'
+    )
+  )
+
+knitr::kable(waterdiepteklassen)
+```
 
 Doordat systemen verschillen, verschillen ook de dieptegrenzen voor een bepaalde klasse tussen de watersystemen. Daarenboven zijn de grenzen ook vrij arbitrair. Zo is een dieptegrens bijvoorbeeld vaak gerelateerd aan de hoeveelheid licht die nog aanwezig is. Dit wordt bei'nvloed door de dynamiek, het bodemtype en de fytoplanktondichtheid als gevolg van de voedselrijkdom. De gekozen grenzen geven echter wel een goede indicatie van de verschillende zones in het oppervlaktewater. In zeer diep water kan als gevolg van stratificatie (zomerstratificatie, of per-manente stratificatie als gevolg van een diepe zouttong) langdurig zuurstofloosheid optreden, waardoor de omgeving onaantrekkelijk wordt voor een groot aantal groepen. Als gevolg van lichtgebrek vindt er op grote diepte ook geen primaire productie plaats. Daardoor is er relatief weinig voedsel aanwezig en is dat voedsel moeilijk bereikbaar voor duikeenden en visetende vogels. De diepte waarbij dit optreedt hangt af van het watertype. In stagnante wateren ligt de spronglaag vaak al op een diepte rond 5 meter. Niettemin zijn in het Usselmeer juist de delen dieper dan 5 meter in de wintermaanden de meest aantrekkelijke voedselgebieden voor visetende vogels als futen en zaagbekken (van Eerden & bij de Vaate, 1984; Platteeuw, 1985). Wellicht houdt zich dan juist meer vis op in het diepere water vanwege gunstiger watertemperaturen. In voorjaar en zomer vormen ook randen van diepere geulen of putten gunstige foerageerplekken voor visetende vogels (Voslamber ef al., 1995; Stam, 1995). In meer gemengde systemen ligt de bovengrens van zeer diep water dieper. Bij kanalen wordt 10 meter aangehouden. Niet ver van sluizen kan in putten in de getijdenwateren en in sommige kanalen stratificatie optreden als gevolg van een diepe zouttong. Aangenomen is dat dit ook vanaf 10 meter optreedt. In andere diepe, stromende delen van de getijdenwateren komt soms ook helemaal geen stratificatie voor en moet het gebied tot de klasse diep water worden gerekend. Diep water wordt onderscheiden op basis van het niet voorkomen van langdurige stratificatie in combinatie met de afwezigheid van een uitgebreide bedekking met vegetatie. In rivieren en kanalen begint deze klasse vanaf ongeveer 2 meter en in getijdenwateren en stagnante wateren als gevolg van een geringere opwerveling vanaf ongeveer 3 meter. Als gevolg van de eigenschap drijfvermogen kunnen bepaalde fytoplanktonsoorten succesvol concurreren om lichtenergie. In stagnante wateren wint de blauwwier Microcystis het daarom veelal van Planktothrix bij dieptes van meer dan ongeveer 3 meter. Bovendien heeft Microcystis veelal de hoogste toename van de groeisnelheid met de temperatuur, waardoor ze optimaal kunnen profiteren van een temperatuursprong als gevolg van micro-stratificatie. Dit is het optreden van verschillende waterlagen overdag, dat's nachts vaak weer teniet gedaan wordt en op enkele meters diepte plaats kan vinden. In deze zone kunnen duikeenden efficient foerageren op aanwezige driehoeksmosselen (de Leeuw, 1997). Vervolgens wordt matig diep water begrensd door de diepte tot waarop vegetatie nog uitgebreid kan voorkomen. Uiteraard is ook deze diepte afhankelijk van de hoeveelheid licht die de bodem kan bereiken en daarmee van de dynamiek, het bodemtype en de fytoplanktondichtheid als gevolg van de nutrientenrijkdom. Als gevolg van menging zal het aanwezige fytoplankton vaak veelvuldig aan licht worden blootgesteld en wordt concurrentie om voedingsstoffen belangrijker. De blauwwier Microcystis verliest het in stagnante wateren daarom vaak van Planktothrix, maar er komen ook veel andere groepen voor. In getijdenwateren is de zone van belang voor getijden-migreerders en komt hier bij uitstek de 'kinderkamerfunctie' tot uiting. De Jong (1999) geeft aan dat deze zone zich uitstrekt tot de geulrand, die in kustwateren rond 4 - 5 meter beneden NAP wordt gevonden. In ondiep water van grotere systemen is vegetatie weer vaak afwezig als gevolg van de mechanische krachten van met name golfwerking. Waterplanten komen hierdoor op dieptes van minder dan 0,50 meter nauwelijks voor (Remmelzwaal etal., 1998). Ook driehoeksmosselen worden slechts in marginale dichtheden aangetroffen in ondiep water. Dit hangt wellicht samen met een te hoge mate van golfdynamiek die aanhechting aan het substraat bemoeilijkt of met een te sterke gevoeligheid voor predatie door watervogels op een dergelijk geringe diepte. In geval van scheepvaart spelen twee factoren een rol: zuiging en golfslag. Op de Waal leidt een passage van duwvaart tot een waterstandsverlaging van ongeveer 0,4 meter. De invloed van de zuiging werkt echter dieper door. Bij de genoemde begrenzing van 1 meter bij gemiddeld laagwater is tevens de invloed van de golven al meegenomen. In dit dynamische milieu komen alleen enkele storingstolerante soorten voor. In stagnante wateren ontbreekt de golfdynamiek in veel gevallen of is minder groot. De ondiepe zone is hier dan ook aantrekkelijker voor biota, zoals grondeleenden en andere niet of weinig duikende watervogels. Zo foerageren kleine zwanen op de worteldelen van fonteinkruiden en knobbelzwanen en meerkoeten op kranswieren. De ondiepe delen van een watersysteem nemen een aparte plaats in door de potentiele aanwezigheid van uitgebreide oevervegetatie (helofyten), vaak in de vorm van velden van riet, biezen en/of lisdodde. De maximale diepte waarop deze zones voorkomen ligt veelal beneden 1 meter (Coops etal., 1999). Maas (1998) begrenst het ondiep water weliswaar bij 1,5 meter, maar geeft wel aan dat in de beddingbodem wortelende soorten als gele lis en drijvend fonteinkruid zich slechts vestigen in relatief rustige. circa 1 meter diepe delen. De oevervegetatie kan een belangrijke rol spelen als paai- en opgroeigebied voor vissen, maar vormt ook het leefgebied voor een breed scala aan moerasgebonden vogels (zoals rietzangvogels) en enkele karakteristieke soorten zoogdieren (bijvoorbeeld de otter) en amfibieen en reptielen (kikkers en de ringslang). Omdat als minimale diepte van de zone 'ondiep' 0,3 meter is aangehouden, is deze zone niet of nauwelijks geschikt voor wadende vogelsoorten als lepelaar en reigerachtigen.
 
@@ -76,7 +181,7 @@ Bovengenoemde indeling in fracties sluit goed aan bij bodemkarteringen, maar min
 
 Het aanwezige bodemtype zal in een aantal gevallen niet of nauwelijks bepalend zijn voor de aanwezigheid van biologische soorten, daar een andere factor overheerst. Om deze reden wordt vooralsnog veelal geen onderscheid gemaakt op bodemtype wanneer systemen (zeer) sterk dynamisch zijn of dieper dan 5 meter. Er is onvoldoende ruimte geweest om voor de getijdenwateren onderscheid te maken tussen zand, klei en slib.
 
-## Aanwezigheid van biologische soort(groep)  {#sec-aanwezigheid-van-biologische-soort(groep-}
+## Aanwezigheid van biologische soort(groep) {#sec-aanwezigheid-van-biologische-soort(groep-}
 
 In enkele gevallen worden binnen een ecotoop een of meerdere eco-elementen onderscheiden (zie paragraaf 2.2). Dit gebeurt op basis van de aanwezigheid van specifieke soort(groep)en. Het voorkomen van de soort(groep)en is afhankelijk van de abiotische randvoorwaarden, zoals genoemd in de voorgaande paragrafen. Daarnaast spelen onder meer successiestadium, predatie, voedselrijkdom, helderheid in relatie tot de waterdiepte en water-verversing een rol. Een aantal van deze operationele factoren heeft een duidelijke relatie met milieudruk als gevolg van de gebruiksdynamiek, zoals genoemd in paragraaf 2.5. Bij de keuze van de soorten is aangesloten op de monitoring, dat wil zeggen dat ze goed en eenvoudig zichtbaar dienen te zijn voor het gehele gebied en een groot deel van het jaar. Dit criterium valt vaak samen met het gegeven dat de betreffende groep structurerend is voor het gebied en dus bepalend voor het voorkomen van diverse andere soorten. In de praktijk gaat het hierbij veelal om vegetatie of het geclusterd voorkomen van schelpdieren. Bij de meren is de vegetatie onderscheiden in kranswieren, fonteinkruiden, Nymphaeiden en helofyten. In brakke delen van de getijdenwateren bestaat de vegetatie voornamelijk uit zeegras of wieren. De schelpdieren bestaan in de zoete wateren vooral uit driehoeksmosselen (Schloesser etal., 1994); in de brakke getijdenwateren kunnen andere schelpdieren een vergelijkbare rol spelen. Ook wordt hier een eco-element (overig) benthos onderscheiden. Verdere differentiatie is niet haalbaar vanuit het criterium van de karteerbaarheid en vaak niet zinvol met betrekking tot de ecologische relevantie. De volgende kwantitatieve maten worden aangehouden ten aanzien van het onderscheiden van eco-elementen.
 
