@@ -5,11 +5,8 @@ library(tidyverse)
 library(DT)
 library(htmltools)
 
-systemen = c(
-  m = "meren", 
-  r = "rivieren",
-  g = "getijdewateren"
-)
+source("r/lookuptables.R")
+source("r/functions.R")
 
 options(DT.options = list(pageLength = 5, language = list(search = 'Filter:')))
 resultdir <- 'resultaat'
@@ -28,12 +25,6 @@ names(lookup) = namesMapping$niceName
 draaitabel1 <- draaitabel %>%
   rename(all_of(lookup))
 
-
-```
-
-```{r tabelselectiefunctie}
-
-source("r/functions.R")
 
 ```
 

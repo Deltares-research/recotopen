@@ -25,6 +25,7 @@ book:
     - index.qmd
     - inleiding.qmd
     - indelingskenmerken.qmd
+    - ecotopenbeschrijving.qmd
     - overzichtstabellen.qmd
 toc: true
 toc-depth: 2
