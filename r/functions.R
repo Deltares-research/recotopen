@@ -48,7 +48,7 @@ maak_kenmerkentabel <- function(
     # filter(systeem %in% gekozen_systeem) %>%
     filter(ZONERING %in% gekozen_zonering) %>%
     # verwijder kolommen met alleen NA waarden
-    select_if(~sum(!is.na(.)) > 0)
+    select_if(~sum(!is.na(.)) > 0) %>%
   # # kombineer waarden voor systeem per ecotoop op een regel
   # pivot_wider(names_from = systeem, values_from = systeem) %>%
   # replace(is.na(.), "") %>%
@@ -65,8 +65,39 @@ maak_kenmerkentabel <- function(
   #   kableExtra::row_spec(0, angle = -90, align = "c")
   
   
+#   ecotoop_link <- paste0(
+#     '#sec-',
+#     str_replace_all(gekozen_zonering, regex(',
+#   gekozen_zonering,
+#   '</a>'
+# )
+
+  # draaitabel2 <- draaitabel2 %>%
+  #   mutate(
+  #     ECOTOOP = paste0(
+  #     "#sec-",
+  #       "[", ECOTOOP, "]",
+  #       str_replace_all(ECOTOOP, regex("\\W+"), "-"),
+  #       ")"
+  #     )
+  #   )
+  
+  
+    mutate(
+      ECOTOOP = paste0(
+        '<a href="ecotopenbeschrijving.html#sec-',
+        str_replace_all(
+          ECOTOOP, regex("\\W+"), "-"),
+        '">',
+        ECOTOOP,
+        '</a>'
+      )
+    )
+
+  
   datatable(
     draaitabel2, 
+    escape = FALSE,
     caption = caption,
     rownames = F, 
     class = c("compact"),

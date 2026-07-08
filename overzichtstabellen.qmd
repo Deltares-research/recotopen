@@ -11,7 +11,7 @@ source("r/functions.R")
 options(DT.options = list(pageLength = 5, language = list(search = 'Filter:')))
 resultdir <- 'resultaat'
 
-draaitabel <- read_csv2(file.path(resultdir, "draaitabel_alles.csv"))
+draaitabel <- read_csv2(file.path(resultdir, "draaitabel_alles_zoneringsimpel.csv"))
 
 ## do only once, to create a mapping table for the names
 # tibble(originalName = names(draaitabel1)) %>%
