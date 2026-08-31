@@ -41,46 +41,19 @@ jobs:
         run: |
           sudo Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org")'
 
-      - name: Check renv
-        run: |
-          Rscript -e 'packageVersion("renv")'
-    
       - name: Restore renv
         run: |
           Rscript -e 'source("renv/activate.R"); renv::restore(prompt = FALSE)'
 
-      - name: Check project library  
+      - name: Synchronize renv
         run: |
-          Rscript -e 'source("renv/activate.R"); cat(requireNamespace("rmarkdown", quietly=TRUE), "\n")'
-          
-      - name: Check packages
-        env:
-          R_LIBS_USER: ~/R/library
-        run: |
-          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); packageVersion("renv"); packageVersion("rmarkdown")'
+          Rscript -e 'source("renv/activate.R"); renv::status()'
 
-      - name: Diagnose R environment
-        run: |
-          Rscript -e 'print(.libPaths())'
-          Rscript -e 'cat("renv:", requireNamespace("renv", quietly=TRUE), "\n")'
-          Rscript -e 'cat("rmarkdown:", requireNamespace("rmarkdown", quietly=TRUE), "\n")'
-          Rscript -e 'cat("knitr:", requireNamespace("knitr", quietly=TRUE), "\n")'
-
-      - name: Verify environment
-        run: |
-          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); cat("renv:", requireNamespace("renv", quietly=TRUE), "\n")'
-          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); cat("rmarkdown:", requireNamespace("rmarkdown", quietly=TRUE), "\n")'
-          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); cat("knitr:", requireNamespace("knitr", quietly=TRUE), "\n")'
-
-      - name: Check renv library contents
-        run: |
-          ls renv/library/R-4.3/x86_64-pc-linux-gnu | grep rmarkdown
-          ls renv/library/R-4.3/x86_64-pc-linux-gnu | grep knitr
-    
       - name: Render book
         run: |
-          Rscript -e 'renv::restore(prompt = FALSE); renv::load(); system("quarto render")'
-
+          export R_PROFILE_USER=$PWD/renv/activate.R
+          quarto render
+    
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
