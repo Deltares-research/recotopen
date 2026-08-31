@@ -1,0 +1,47 @@
+# Overzicht RWES-documenten
+
+## RWES Aquatisch
+
+**Type:** Aquatisch
+
+Het Rijkswateren-Ecotopen-Stelsel Aquatisch (RWES Aquatisch) beschrijft de aquatische delen van de Nederlandse rijkswateren. Het systeem biedt een uniforme ecologische classificatie van waterhabitats op basis van kenmerken zoals stromingsrichting, saliniteit, mechanische dynamiek, waterdiepte en bodemtype. Het onderscheidt 78 aquatische ecotopen en diverse eco-elementen en vormt de basis voor inrichting, beheer en monitoring van aquatische ecosystemen.
+
+**Bron:** Van der Molen et al. (2000), *RWES aquatisch*.
+
+**Referentie:** rwes_aquatisch.pdf. 【1-913e4c】
+
+------------------------------------------------------------------------
+
+## RWES Oevers
+
+**Type:** Oevers
+
+Het Rijkswateren-Ecotopen-Stelsel Oevers (RWES Oevers) beschrijft de overgangszone tussen water en land. Het systeem is ontwikkeld als aanvulling op RWES Aquatisch en gebruikt vier belangrijke factoren voor classificatie: hydrologie, zoutgehalte, mechanische dynamiek en beheer/gebruik. Er worden 53 oeverecotopen onderscheiden, verdeeld over acht ecotoopgroepen zoals ondiep water, moerasvegetaties, graslanden en zachthoutbossen.
+
+**Bron:** Lorenz (2001), *Rijkswateren-Ecotopen-Stelsel Oevers*.
+
+**Referentie:** 97865_001.pdf. 【1-8f7e4b】
+
+------------------------------------------------------------------------
+
+## RWES Terrestrisch
+
+**Type:** Terrestrisch
+
+RWES Terrestrisch beschrijft de periodiek tot zelden overstroomde en overstromingsvrije delen langs rijkswateren. Het vormt samen met RWES Aquatisch en RWES Oevers het volledige geactualiseerde RWES-systeem. De classificatie is gebaseerd op hydrologie, mechanische dynamiek en beheer. In totaal worden 28 terrestrische ecotopen onderscheiden binnen de zones oeverwal, hoge uiterwaard en overstromingsvrije gebieden.
+
+**Bron:** Willems, Bergwerff & Geilen (2007), *RWES-terrestrisch*.
+
+**Referentie:** rwes_terrestrisch-actualisatie_ecotopenindeling_van_de_periodiek_tot_zelden.pdf. 【1-e9adab】
+
+------------------------------------------------------------------------
+
+## Ecologische beschrijvingen van oeverecotopen
+
+**Type:** Oevers
+
+Dit document bevat uitgebreide ecologische beschrijvingen van specifieke oeverecotopen, zoals zachthoutooibossen, vloedbossen, grienden en graslanden. Per ecotoop worden de landschappelijke positie, kenmerkende vegetatie, fauna en ecologische functies beschreven. Het document dient als nadere uitwerking van de ecotoopbeschrijvingen binnen het RWES Oevers-systeem.
+
+**Bron:** Uitwerking ecologische beschrijvingen RWES Oevers.
+
+**Referentie:** 97865_002.pdf. 【1-4e9c05】

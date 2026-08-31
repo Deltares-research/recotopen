@@ -1,0 +1,51 @@
+---
+title: "Coderingen"
+format: html
+---
+
+## Coderingen van indelingskenmerken
+
+### RWES Aquatisch
+
+De aquatische ecotopen worden opgebouwd uit combinaties van gecodeerde klassen voor:
+
+- Stromingsrichting
+- Saliniteit
+- Mechanische dynamiek
+- Waterdiepte
+- Bodemtype
+
+Voorbeelden van gebruikte codes zijn:
+
+| Kenmerk | Voorbeeldcodes |
+|----------|---------------|
+| Mechanische dynamiek | z, s, d, l |
+| Waterdiepte | z, d, m, o |
+| Bodemtype | k, s, z, h |
+
+Deze codes worden gecombineerd tot unieke ecotoopcodes. 【1-70b564】
+
+### RWES Oevers
+
+Voor de oeverecotopen worden de volgende gecodeerde kenmerken gebruikt:
+
+| Kenmerk | Voorbeeldcodes |
+|----------|---------------|
+| Hydrologie | 1r, 2r, 3r; 1g t/m 4g; 1s t/m 3s |
+| Zoutgehalte | F, L, B, Z |
+| Mechanische dynamiek | S, M, G |
+| Gebruik/beheer | N, E, I, K |
+
+De combinatie van deze klassen vormt de uiteindelijke oeverecotoopcode. 【1-1cd7c7】
+
+### RWES Terrestrisch
+
+Voor de terrestrische ecotopen worden eveneens gecodeerde klassen gebruikt:
+
+| Kenmerk | Voorbeeldcodes |
+|----------|---------------|
+| Hydrologie | 1r, 2r, 2g, 2s |
+| Mechanische dynamiek | S, M, G |
+| Gebruik/beheer | I, E, N, K |
+
+De terrestrische ecotopen worden gedefinieerd door combinaties van deze codes. 【1-90b808】

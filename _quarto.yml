@@ -24,9 +24,11 @@ book:
   chapters:
     - index.qmd
     - inleiding.qmd
-    - indelingskenmerken.qmd
+    - indelingskenmerkenAUG2026.qmd
     - ecotopenbeschrijving.qmd
+    - coderingen.qmd
     - overzichtstabellen.qmd
+    - bronnen.qmd
 toc: true
 toc-depth: 2
 crossref:
