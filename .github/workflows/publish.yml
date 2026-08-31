@@ -17,6 +17,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    
+    env:
+      R_LIBS_USER: ~/R/library
 
     steps:
       - name: Check out repository
@@ -61,10 +64,16 @@ jobs:
           Rscript -e 'cat("renv:", requireNamespace("renv", quietly=TRUE), "\n")'
           Rscript -e 'cat("rmarkdown:", requireNamespace("rmarkdown", quietly=TRUE), "\n")'
           Rscript -e 'cat("knitr:", requireNamespace("knitr", quietly=TRUE), "\n")'
+
+      - name: Verify environment
+        run: |
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); cat("renv:", requireNamespace("renv", quietly=TRUE), "\n")'
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); cat("rmarkdown:", requireNamespace("rmarkdown", quietly=TRUE), "\n")'
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); cat("knitr:", requireNamespace("knitr", quietly=TRUE), "\n")'
     
       - name: Render book
         run: |
-          Rscript -e 'renv::load(); system("quarto render")'
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); renv::load(); system("quarto render")'
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
