@@ -40,7 +40,7 @@ jobs:
           Rscript -e '.libPaths("~/R/library"); install.packages("renv", repos="https://cloud.r-project.org")'
           
       - name: Restore renv
-        run: Rscript -e '.libPaths("~/R/library"); renv::restore(prompt = FALSE)'
+        run: Rscript -e 'renv::load(); system("quarto render")'
 
       - name: Render book
         run: quarto render
