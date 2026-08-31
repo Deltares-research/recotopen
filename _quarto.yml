@@ -24,7 +24,7 @@ book:
   chapters:
     - index.qmd
     - inleiding.qmd
-    - indelingskenmerkenAUG2026.qmd
+    - indelingskenmerken.qmd
     - ecotopenbeschrijving.qmd
     - coderingen.qmd
     - overzichtstabellen.qmd
