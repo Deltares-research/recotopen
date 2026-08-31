@@ -33,7 +33,13 @@ jobs:
       - name: Check R
         run: 
           R --version
-      
+          
+      - name: Install renv
+        run: Rscript -e "install.packages('renv', repos='https://cloud.r-project.org')"
+
+      - name: Restore renv
+        run: Rscript -e "renv::restore(prompt = FALSE)"
+
       - name: Render book
         run: quarto render
 
