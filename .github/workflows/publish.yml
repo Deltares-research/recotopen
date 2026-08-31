@@ -43,9 +43,18 @@ jobs:
           Rscript -e 'packageVersion("renv")'
     
       - name: Restore renv
+        env:
+          R_LIBS_USER: ~/R/library
         run: |
-          Rscript -e 'renv::restore(prompt = FALSE)'
+          mkdir -p ~/R/library
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); renv::restore(prompt = FALSE)'
 
+      - name: Check packages
+        env:
+          R_LIBS_USER: ~/R/library
+        run: |
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); packageVersion("renv"); packageVersion("rmarkdown")'
+    
       - name: Render book
         run: |
           Rscript -e 'renv::load(); system("quarto render")'
