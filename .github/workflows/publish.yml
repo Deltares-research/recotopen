@@ -1,0 +1,80 @@
+name: Quarto Publish
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+env:
+  PAGES_ARTIFACT_NAME: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    env:
+      R_LIBS_USER: ~/R/library
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install R
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y r-base
+      
+      - name: Check R
+        run: 
+          R --version
+          
+      - name: Install renv
+        run: |
+          sudo Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org")'
+
+      - name: Restore renv
+        run: |
+          Rscript -e 'source("renv/activate.R"); renv::restore(prompt = FALSE)'
+
+      - name: Synchronize renv
+        run: |
+          Rscript -e 'source("renv/activate.R"); renv::status()'
+
+      - name: Render book
+        run: |
+          export R_PROFILE_USER=$PWD/renv/activate.R
+          quarto render
+    
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
