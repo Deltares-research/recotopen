@@ -73,7 +73,7 @@ jobs:
     
       - name: Render book
         run: |
-          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); renv::load(); system("quarto render")'
+          Rscript -e 'renv::restore(prompt = FALSE); renv::load(); system("quarto render")'
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
