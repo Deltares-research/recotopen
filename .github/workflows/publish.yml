@@ -36,15 +36,19 @@ jobs:
           
       - name: Install renv
         run: |
-          mkdir -p ~/R/library
-          Rscript -e '.libPaths("~/R/library"); install.packages("renv", repos="https://cloud.r-project.org")'
-          
+          sudo Rscript -e 'install.packages("renv", repos="https://cloud.r-project.org")'
+
+      - name: Check renv
+        run: |
+          Rscript -e 'packageVersion("renv")'
+    
       - name: Restore renv
-        run: Rscript -e 'renv::load(); system("quarto render")'
+        run: |
+          Rscript -e 'renv::restore(prompt = FALSE)'
 
       - name: Render book
         run: |
-          Rscript -e '.libPaths("~/R/library"); renv::load(); system("quarto render")'
+          Rscript -e 'renv::load(); system("quarto render")'
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
