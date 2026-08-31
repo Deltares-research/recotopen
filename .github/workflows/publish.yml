@@ -54,6 +54,13 @@ jobs:
           R_LIBS_USER: ~/R/library
         run: |
           Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); packageVersion("renv"); packageVersion("rmarkdown")'
+
+      - name: Diagnose R environment
+        run: |
+          Rscript -e 'print(.libPaths())'
+          Rscript -e 'cat("renv:", requireNamespace("renv", quietly=TRUE), "\n")'
+          Rscript -e 'cat("rmarkdown:", requireNamespace("rmarkdown", quietly=TRUE), "\n")'
+          Rscript -e 'cat("knitr:", requireNamespace("knitr", quietly=TRUE), "\n")'
     
       - name: Render book
         run: |
