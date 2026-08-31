@@ -13,7 +13,8 @@ datadir <- '../data'
 resultdir <- '../resultaat'
 
 tabelMaaikeURL <- 'deltares/ecotopen/Ecotopensystematiek RES compleet_v2.xlsx'
-vertaaltabelURL <- 'rijkswaterstaat/ecotopen/Vertaaltabel_alle_systemen_v20200303_MM.xlsx'
+# vertaaltabelURL <- 'rijkswaterstaat/ecotopen/Vertaaltabel_alle_systemen_v20200303_MM.xlsx'
+vertaaltabelURL <- 'rijkswaterstaat/ecotopen/Vertaaltabel_alle_systemen_v20200303_MM_zoneringsimpel.xlsx'
 ```
 
 Ecotopensystematiek is lastiger in te lezen doordat er meerdere kolomnamen en indelingen zijn.
@@ -221,8 +222,12 @@ draaitabel1 <- vertaaltabel2 %>%
   ) %>%
   replace(is.na(.), "")
 
+```
 
-write_csv2(draaitabel1, file.path(resultdir, "draaitabel_alles.csv"))
+
+
+```{r bewaardraaitabel}
+write_csv2(draaitabel1, file.path(resultdir, "draaitabel_alles_zoneringsimpel.csv"))
 ```
 
 ```{r}

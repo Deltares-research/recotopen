@@ -65,24 +65,7 @@ maak_kenmerkentabel <- function(
   #   kableExtra::row_spec(0, angle = -90, align = "c")
   
   
-#   ecotoop_link <- paste0(
-#     '#sec-',
-#     str_replace_all(gekozen_zonering, regex(',
-#   gekozen_zonering,
-#   '</a>'
-# )
-
-  # draaitabel2 <- draaitabel2 %>%
-  #   mutate(
-  #     ECOTOOP = paste0(
-  #     "#sec-",
-  #       "[", ECOTOOP, "]",
-  #       str_replace_all(ECOTOOP, regex("\\W+"), "-"),
-  #       ")"
-  #     )
-  #   )
-  
-  
+  # make link to related section
     mutate(
       ECOTOOP = paste0(
         '<a href="ecotopenbeschrijving.html#sec-',
