@@ -43,7 +43,8 @@ jobs:
         run: Rscript -e 'renv::load(); system("quarto render")'
 
       - name: Render book
-        run: quarto render
+        run: |
+          Rscript -e '.libPaths("~/R/library"); renv::load(); system("quarto render")'
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
