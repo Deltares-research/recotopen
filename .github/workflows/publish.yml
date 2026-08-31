@@ -35,10 +35,12 @@ jobs:
           R --version
           
       - name: Install renv
-        run: Rscript -e "install.packages('renv', repos='https://cloud.r-project.org')"
-
+        run: |
+          mkdir -p ~/R/library
+          Rscript -e '.libPaths("~/R/library"); install.packages("renv", repos="https://cloud.r-project.org")'
+          
       - name: Restore renv
-        run: Rscript -e "renv::restore(prompt = FALSE)"
+        run: Rscript -e '.libPaths("~/R/library"); renv::restore(prompt = FALSE)'
 
       - name: Render book
         run: quarto render
