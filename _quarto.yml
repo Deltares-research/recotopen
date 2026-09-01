@@ -47,7 +47,9 @@ bibliography:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: 
+      - styles.css
+      - draft.css
   # pdf:
   #   include-in-header: 
   #     - preamble.tex
