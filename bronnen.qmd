@@ -8,7 +8,7 @@ Het Rijkswateren-Ecotopen-Stelsel Aquatisch (RWES Aquatisch) beschrijft de aquat
 
 **Bron:** Van der Molen et al. (2000), *RWES aquatisch*.
 
-**Referentie:** rwes_aquatisch.pdf. 【1-913e4c】
+**Referentie:** rwes_aquatisch.pdf.
 
 ------------------------------------------------------------------------
 
@@ -20,7 +20,7 @@ Het Rijkswateren-Ecotopen-Stelsel Oevers (RWES Oevers) beschrijft de overgangszo
 
 **Bron:** Lorenz (2001), *Rijkswateren-Ecotopen-Stelsel Oevers*.
 
-**Referentie:** 97865_001.pdf. 【1-8f7e4b】
+**Referentie:** 97865_001.pdf.
 
 ------------------------------------------------------------------------
 
@@ -32,7 +32,7 @@ RWES Terrestrisch beschrijft de periodiek tot zelden overstroomde en overstromin
 
 **Bron:** Willems, Bergwerff & Geilen (2007), *RWES-terrestrisch*.
 
-**Referentie:** rwes_terrestrisch-actualisatie_ecotopenindeling_van_de_periodiek_tot_zelden.pdf. 【1-e9adab】
+**Referentie:** rwes_terrestrisch-actualisatie_ecotopenindeling_van_de_periodiek_tot_zelden.pdf.
 
 ------------------------------------------------------------------------
 
@@ -44,4 +44,4 @@ Dit document bevat uitgebreide ecologische beschrijvingen van specifieke oeverec
 
 **Bron:** Uitwerking ecologische beschrijvingen RWES Oevers.
 
-**Referentie:** 97865_002.pdf. 【1-4e9c05】
+**Referentie:** 97865_002.pdf.

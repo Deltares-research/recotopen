@@ -23,7 +23,7 @@ Voorbeelden van gebruikte codes zijn:
 | Waterdiepte | z, d, m, o |
 | Bodemtype | k, s, z, h |
 
-Deze codes worden gecombineerd tot unieke ecotoopcodes. 【1-70b564】
+Deze codes worden gecombineerd tot unieke ecotoopcodes.
 
 ### RWES Oevers
 
@@ -36,7 +36,7 @@ Voor de oeverecotopen worden de volgende gecodeerde kenmerken gebruikt:
 | Mechanische dynamiek | S, M, G |
 | Gebruik/beheer | N, E, I, K |
 
-De combinatie van deze klassen vormt de uiteindelijke oeverecotoopcode. 【1-1cd7c7】
+De combinatie van deze klassen vormt de uiteindelijke oeverecotoopcode.
 
 ### RWES Terrestrisch
 
@@ -48,4 +48,4 @@ Voor de terrestrische ecotopen worden eveneens gecodeerde klassen gebruikt:
 | Mechanische dynamiek | S, M, G |
 | Gebruik/beheer | I, E, N, K |
 
-De terrestrische ecotopen worden gedefinieerd door combinaties van deze codes. 【1-90b808】
+De terrestrische ecotopen worden gedefinieerd door combinaties van deze codes.
