@@ -25,7 +25,8 @@ book:
     - index.qmd
     - inleiding.qmd
     - indelingskenmerken.qmd
-    - ecotopenbeschrijving.qmd
+    # - ecotopenbeschrijving.qmd
+    - ecotopen_samengevoegd.qmd
     - coderingen.qmd
     - overzichtstabellen.qmd
     - bronnen.qmd
