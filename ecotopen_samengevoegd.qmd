@@ -1,0 +1,484 @@
+---
+title: "Ecotopenbeschrijvingen"
+lang: nl
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    number-sections: false
+---
+
+<!--
+Dit bestand is automatisch samengesteld.
+Controleer de koppelingen in controle_matches.csv.
+-->
+
+##### Aquatisch \> getijdewateren \> Zeer diep, zoet getijdenwater {#sec-Zeer-diep-zoet-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Eenzijdig aangetakte zoete getijdenkreek > kreek (`GzKz`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Eenzijdig aangetakte zoete getijdenkreek
+
+**Ecotooptitel in bron:** kreek (`GzKz`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.725
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Eenzijdig aangetakte zoete getijdenkreek > kreek (`GzKz`) [score 0.725] | 2. Getijdenwateren > Zeer diep, brak getijdenwater > zeer diep (Ez) (`GbZx`) [score 0.718] | 3. Getijdenwateren > Diep zoet getijdenwater > diep, hard (Bd-6) (`GzDh`) [score 0.715]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.725** en moet handmatig gecontroleerd worden.
+:::
+
+::: {.callout-warning}
+## Beschrijving meerdere keren gekoppeld
+
+Deze bronbeschrijving is aan **2** gewenste titels gekoppeld.
+:::
+
+**Eco-element(en):** helofyten
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+5.3.1 Zoete getijdenwateren Het ecotoop zeer diep getijdenwater bevat geen waterplanten als gevolg van de diepte, de (wisselende) stroomsnelheid en de hoge sedimentlast van het water, waardoor weinig licht tot de bodem kan doordringen. De belangrijkste primaire producent is het fytoplankton. Macrofauna komt voor met weinig soorten en in lage dichtheden. Dit is mede een gevolg van het gegeven dat zand voortdurend in beweging is. Watersysteem Zoete getijdenwateren Zoogdieren gewone zeehond [a, d], tuimelaar [a, d], otter [a, d], bever [a, d] Vogels visdief [a, d], zwarte stern [d], fuut [a], aalscholver [a, d], stormmeeuw, kokmeeuw, zilvermeeuw [d], toppereend [a, d], kuifeend [a, d], tafeleend [a], brilduiker. dwergstern [d], grote stern [a, d], grote mantelmeeuw Vissen alver, barbeel [a, d], riviergrondel, winde [a, d], rivierdonderpad [d], houting [d], spiering [a, d], zalm [a, d], elft [d], fint [a, d], driedoornige stekel- baars [a], bot [d], baars [a], brasem [a], kolblei. paling [d], snoekbaars [a], pos. blankvoom [a] Amfibieen en reptielen Plankton /vl/crocysf/s spec, [a] en diverse andere blauwwieren, goudwieren, groenwieren, zweepdieren, trilhaar- dieren en raderdieren
+
+
+##### Aquatisch \> getijdewateren \> Diep, zoet getijdenwater {#sec-Diep-zoet-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Matig diep zoet getijdenwater > matig diep, hard (Bo-6) (`GzMh`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Matig diep zoet getijdenwater
+
+**Ecotooptitel in bron:** matig diep, hard (Bo-6) (`GzMh`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.706
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Matig diep zoet getijdenwater > matig diep, hard (Bo-6) (`GzMh`) [score 0.706] | 2. Getijdenwateren > Diep, brak getijdenwater > ondiep, hard(Eo-6) (`GbOh`) [score 0.692] | 3. Getijdenwateren > Diep. zwak brak getijdenwater > diep, hard (Ed-6) (`GoDh`) [score 0.689]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.706** en moet handmatig gecontroleerd worden.
+:::
+
+::: {.callout-warning}
+## Beschrijving meerdere keren gekoppeld
+
+Deze bronbeschrijving is aan **2** gewenste titels gekoppeld.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+5.3.1 Zoete getijdenwateren Het ecotoop zeer diep getijdenwater bevat geen waterplanten als gevolg van de diepte, de (wisselende) stroomsnelheid en de hoge sedimentlast van het water, waardoor weinig licht tot de bodem kan doordringen. De belangrijkste primaire producent is het fytoplankton. Macrofauna komt voor met weinig soorten en in lage dichtheden. Dit is mede een gevolg van het gegeven dat zand voortdurend in beweging is. De matig diepe en ondiepe getijdenwateren vervullen evenals de (zeer) diepe getijdenwateren een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Schelpdierbanken vormen een geschikt habitat voor bloedzuigers en kleine mosselen. Vissen foerageren in ondiepe wateren en gebruiken deze als paai- en schuilplaats. Op hun beurt vormen de bodemdieren en vissen in ondiepe wateren een belangrijke voedselbron voor overwinterende en doortrekkende vogels. In de bedding- bodem wortelende waterplanten kunnen zich vestigen in ondiepe, niet druk bevaren kreken en geulen, in kribvakken en vooroeverzones (bijvoorbeeld Riet-associatie Typho-Phragmitetum, Mattenbies-associatie Scirpetum lacustris; Schaminee ef al., 1995).
+
+
+##### Aquatisch \> getijdewateren \> Matig diep, zoet getijdenwater {#sec-Matig-diep-zoet-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Matig diep zoet getijdenwater > matig diep, hard (Bo-6) (`GzMh`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Matig diep zoet getijdenwater
+
+**Ecotooptitel in bron:** matig diep, hard (Bo-6) (`GzMh`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.733
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Matig diep zoet getijdenwater > matig diep, hard (Bo-6) (`GzMh`) [score 0.733] | 2. Getijdenwateren > Diep, brak getijdenwater > matig diep, hard (Eo-6) (`GbMh`) [score 0.716] | 3. Getijdenwateren > Matig diep zoet getijdenwater > matig diep, zand/slib (Bo-2/3) (`GzMz`) [score 0.713]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.733** en moet handmatig gecontroleerd worden.
+:::
+
+::: {.callout-warning}
+## Beschrijving meerdere keren gekoppeld
+
+Deze bronbeschrijving is aan **2** gewenste titels gekoppeld.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+5.3.1 Zoete getijdenwateren Het ecotoop zeer diep getijdenwater bevat geen waterplanten als gevolg van de diepte, de (wisselende) stroomsnelheid en de hoge sedimentlast van het water, waardoor weinig licht tot de bodem kan doordringen. De belangrijkste primaire producent is het fytoplankton. Macrofauna komt voor met weinig soorten en in lage dichtheden. Dit is mede een gevolg van het gegeven dat zand voortdurend in beweging is. De matig diepe en ondiepe getijdenwateren vervullen evenals de (zeer) diepe getijdenwateren een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Schelpdierbanken vormen een geschikt habitat voor bloedzuigers en kleine mosselen. Vissen foerageren in ondiepe wateren en gebruiken deze als paai- en schuilplaats. Op hun beurt vormen de bodemdieren en vissen in ondiepe wateren een belangrijke voedselbron voor overwinterende en doortrekkende vogels. In de bedding- bodem wortelende waterplanten kunnen zich vestigen in ondiepe, niet druk bevaren kreken en geulen, in kribvakken en vooroeverzones (bijvoorbeeld Riet-associatie Typho-Phragmitetum, Mattenbies-associatie Scirpetum lacustris; Schaminee ef al., 1995).
+
+
+##### Aquatisch \> getijdewateren \> Ondiep, zoet getijdenwater {#sec-Ondiep-zoet-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Matig diep, zwak brak getijdenwater > matig diep, hard (Eo-6) (`GoMh`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Matig diep, zwak brak getijdenwater
+
+**Ecotooptitel in bron:** matig diep, hard (Eo-6) (`GoMh`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.725
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Matig diep, zwak brak getijdenwater > matig diep, hard (Eo-6) (`GoMh`) [score 0.725] | 2. Getijdenwateren > Zeer diep zoet getijdenwater > zeer diep (Bz) (`GzZx`) [score 0.717] | 3. Getijdenwateren > Zeer diep. zwak brak getijdenwater > zeer diep (Ez) (`GoZx`) [score 0.715]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.725** en moet handmatig gecontroleerd worden.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+De matig diep en ondiep, zwak brak getijdenwater vervullen een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten (bijvoorbeeld Riet-associatie Typho-Phragmitetum en Associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee ef al., 1995) voor en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten. Matig diep en ondiep, brak getijdenwater vervult een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten voor (bijvoorbeeld associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee etal., 1995) en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten.
+
+
+##### Aquatisch \> getijdewateren \> Eenzijdig aangetakte zoete getijdenkreek {#sec-Eenzijdig-aangetakte-zoete-getijdenkreek}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Eenzijdig aangetakte zoete getijdenkreek > kreek (`GzKz`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Eenzijdig aangetakte zoete getijdenkreek
+
+**Ecotooptitel in bron:** kreek (`GzKz`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.768
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Eenzijdig aangetakte zoete getijdenkreek > kreek (`GzKz`) [score 0.768] | 2. Getijdenwateren > Eenzijdig aangetakte, brakke getijdenkreek > kreek (`GbKz`) [score 0.743] | 3. Getijdenwateren > Eenzijdig aangetakte, zwak brakke > kreek (`GoKz`) [score 0.729]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.768** en moet handmatig gecontroleerd worden.
+:::
+
+::: {.callout-warning}
+## Beschrijving meerdere keren gekoppeld
+
+Deze bronbeschrijving is aan **2** gewenste titels gekoppeld.
+:::
+
+**Eco-element(en):** helofyten
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+5.3.1 Zoete getijdenwateren Het ecotoop zeer diep getijdenwater bevat geen waterplanten als gevolg van de diepte, de (wisselende) stroomsnelheid en de hoge sedimentlast van het water, waardoor weinig licht tot de bodem kan doordringen. De belangrijkste primaire producent is het fytoplankton. Macrofauna komt voor met weinig soorten en in lage dichtheden. Dit is mede een gevolg van het gegeven dat zand voortdurend in beweging is. Watersysteem Zoete getijdenwateren Zoogdieren gewone zeehond [a, d], tuimelaar [a, d], otter [a, d], bever [a, d] Vogels visdief [a, d], zwarte stern [d], fuut [a], aalscholver [a, d], stormmeeuw, kokmeeuw, zilvermeeuw [d], toppereend [a, d], kuifeend [a, d], tafeleend [a], brilduiker. dwergstern [d], grote stern [a, d], grote mantelmeeuw Vissen alver, barbeel [a, d], riviergrondel, winde [a, d], rivierdonderpad [d], houting [d], spiering [a, d], zalm [a, d], elft [d], fint [a, d], driedoornige stekel- baars [a], bot [d], baars [a], brasem [a], kolblei. paling [d], snoekbaars [a], pos. blankvoom [a] Amfibieen en reptielen Plankton /vl/crocysf/s spec, [a] en diverse andere blauwwieren, goudwieren, groenwieren, zweepdieren, trilhaar- dieren en raderdieren
+
+
+##### Aquatisch \> getijdewateren \> Zeer diep, brak getijdenwater {#sec-Zeer-diep-brak-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Diep. zwak brak getijdenwater > diep, hard (Ed-6) (`GoDh`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Diep. zwak brak getijdenwater
+
+**Ecotooptitel in bron:** diep, hard (Ed-6) (`GoDh`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.739
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Diep. zwak brak getijdenwater > diep, hard (Ed-6) (`GoDh`) [score 0.739] | 2. Getijdenwateren > Diep, brak getijdenwater > diep, hard (Ed-6) (`GbDh`) [score 0.734] | 3. Getijdenwateren > Diep, brak getijdenwater > matig diep, hard (Eo-6) (`GbMh`) [score 0.728]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.739** en moet handmatig gecontroleerd worden.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+De matig diep en ondiep, zwak brak getijdenwater vervullen een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten (bijvoorbeeld Riet-associatie Typho-Phragmitetum en Associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee ef al., 1995) voor en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten. 5.3.2 Zwak brakke getijdenwateren In het ecotoop zeer diepe zwak brakke getijdenwater worden geen water- planten aangetroffen als gevolg van de diepte, de hoge stroomsnelheid en het hoge sedimentgehalten van het water. De (zeer) diepe wateren zijn belangrijk voor anadrome trekvissen en katadrome vissoorten en enkele echte estuariene vissoorten (en krabben en garnalen), als de brakwatergondel, en bezoekers van mariene oorsprong, zoals enkele platvissen. Deze soorten zijn echter meer gebonden aan minder diepe wateren en de intergetijden- zone. In het beddingsubstraat en op de harde oevers en kaden leeft een groot aantal macrofauna-soorten, waarvan een aantal specifiek is voor diepe en zeer diepe brakke getijdenwateren. Hiertoe behoren schelpdieren als mossel en kokkel die in grote dichtheden kunnen voorkomen (schelpdier- banken). De ecologische omschrijving van diepe, zwak brakke getijden- wateren komt grotendeels overeen met die van zeer diepe brakke getijden- wateren. Schelpdieren vormen hier tot een diepte van ongeveer 5 meter een belangrijke voedselbron voor (overwinterende) bodemfauna-etende duikeenden.
+
+
+##### Aquatisch \> getijdewateren \> Diep, zwak brak getijdenwater {#sec-Diep-zwak-brak-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Zeer diep. zwak brak getijdenwater > zeer diep (Ez) (`GoZx`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Zeer diep. zwak brak getijdenwater
+
+**Ecotooptitel in bron:** zeer diep (Ez) (`GoZx`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.744
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Zeer diep. zwak brak getijdenwater > zeer diep (Ez) (`GoZx`) [score 0.744] | 2. Getijdenwateren > Diep. zwak brak getijdenwater > diep, hard (Ed-6) (`GoDh`) [score 0.739] | 3. Getijdenwateren > Eenzijdig aangetakte, zwak brakke > kreek (`GoKz`) [score 0.723]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.744** en moet handmatig gecontroleerd worden.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+5.3.2 Zwak brakke getijdenwateren In het ecotoop zeer diepe zwak brakke getijdenwater worden geen water- planten aangetroffen als gevolg van de diepte, de hoge stroomsnelheid en het hoge sedimentgehalten van het water. De (zeer) diepe wateren zijn belangrijk voor anadrome trekvissen en katadrome vissoorten en enkele echte estuariene vissoorten (en krabben en garnalen), als de brakwatergondel, en bezoekers van mariene oorsprong, zoals enkele platvissen. Deze soorten zijn echter meer gebonden aan minder diepe wateren en de intergetijden- zone. In het beddingsubstraat en op de harde oevers en kaden leeft een groot aantal macrofauna-soorten, waarvan een aantal specifiek is voor diepe en zeer diepe brakke getijdenwateren. Hiertoe behoren schelpdieren als mossel en kokkel die in grote dichtheden kunnen voorkomen (schelpdier- banken). De ecologische omschrijving van diepe, zwak brakke getijden- wateren komt grotendeels overeen met die van zeer diepe brakke getijden- wateren. Schelpdieren vormen hier tot een diepte van ongeveer 5 meter een belangrijke voedselbron voor (overwinterende) bodemfauna-etende duikeenden. De matig diep en ondiep, zwak brak getijdenwater vervullen een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten (bijvoorbeeld Riet-associatie Typho-Phragmitetum en Associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee ef al., 1995) voor en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten.
+
+
+##### Aquatisch \> getijdewateren \> Matig diep, brak getijdenwater {#sec-Matig-diep-brak-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Diep, brak getijdenwater > matig diep, hard (Eo-6) (`GbMh`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Diep, brak getijdenwater
+
+**Ecotooptitel in bron:** matig diep, hard (Eo-6) (`GbMh`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.719
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Diep, brak getijdenwater > matig diep, hard (Eo-6) (`GbMh`) [score 0.719] | 2. Getijdenwateren > Matig diep, zwak brak getijdenwater > matig diep, hard (Eo-6) (`GoMh`) [score 0.715] | 3. Getijdenwateren > Diep, brak getijdenwater > diep, hard (Ed-6) (`GbDh`) [score 0.702]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.719** en moet handmatig gecontroleerd worden.
+:::
+
+::: {.callout-warning}
+## Beschrijving meerdere keren gekoppeld
+
+Deze bronbeschrijving is aan **2** gewenste titels gekoppeld.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+Matig diep en ondiep, brak getijdenwater vervult een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten voor (bijvoorbeeld associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee etal., 1995) en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten. De matig diep en ondiep, zwak brak getijdenwater vervullen een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten (bijvoorbeeld Riet-associatie Typho-Phragmitetum en Associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee ef al., 1995) voor en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten.
+
+
+##### Aquatisch \> getijdewateren \> Ondiep, brak getijdenwater {#sec-Ondiep-brak-getijdenwater}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Getijdenwateren > Diep, brak getijdenwater > matig diep, hard (Eo-6) (`GbMh`)
+
+**Bovenliggende brontitel:** Getijdenwateren > Diep, brak getijdenwater
+
+**Ecotooptitel in bron:** matig diep, hard (Eo-6) (`GbMh`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.720
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Getijdenwateren > Diep, brak getijdenwater > matig diep, hard (Eo-6) (`GbMh`) [score 0.720] | 2. Getijdenwateren > Zeer diep, brak getijdenwater > zeer diep (Ez) (`GbZx`) [score 0.717] | 3. Getijdenwateren > Diep, brak getijdenwater > diep, hard (Ed-6) (`GbDh`) [score 0.712]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.720** en moet handmatig gecontroleerd worden.
+:::
+
+::: {.callout-warning}
+## Beschrijving meerdere keren gekoppeld
+
+Deze bronbeschrijving is aan **2** gewenste titels gekoppeld.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklassen matig diep en ondiep, (zwak) brak getijdenwater omvatten alle (zwak) brakke (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan respectievelijk 3 en 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. Tevens behoren tot dit ecotoop de aan deze wateren grenzende harde oevers, kaden, bestortingen en pontons (hard substraat). Verder kan hard substraat bestaan uit geconsolideerd veen of klei. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepe getijdenwateren. Desondanks vindt er zand- en slibtransport plaats. De ecotoopklassen matig diep en ondiep getijdenwater omvatten alle (voor)oeverzones van geulen en ondiepe kreken met een diepte minder dan 3, respectievelijk 1 meter ten opzichte van gemiddeld laagwater (GLW) die (nagenoeg) permanent watervoerend zijn en onder invloed staan van de getijdenwerking en de rivier. De waterdiepte is het meest onderscheidend ten opzichte van de andere ecotopen. De mechanische dynamiek in de zandige geulen is relatief minder sterk dan in de diepere getijdenwateren. Desondanks vindt er zand- en slibtransport plaats.
+
+**Ecologische beschrijving en referentie**
+
+Matig diep en ondiep, brak getijdenwater vervult een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten voor (bijvoorbeeld associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee etal., 1995) en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten. De matig diep en ondiep, zwak brak getijdenwater vervullen een belangrijke rol voor de bodemfauna, vissen en vis- en bodemfauna-etende watervogels. Een belangrijke schakel in de voedselketen vormen de schelpdierbanken met een hoge biomassa per vierkante meter met mossels, kokkels, krabben en overige macrofauna. Ondiepe brakke getijdenwateren (ook kreken) zijn van groot belang als kraamkamer en foerageergebied van jonge (bodem- gebonden) vis, krabben en garnalen. Hier en daar komen waterplanten en helofyten (bijvoorbeeld Riet-associatie Typho-Phragmitetum en Associatie van Heen en Grote waterweegbree Alismato-Scirpetum maritimi; Schaminee ef al., 1995) voor en deze kunnen weer als voedsel dienen voor ganzen en eenden. Vegetaties met zeegrassen en wieren spelen een belangrijke rol bij de opbouw van zand- en slikplaten.
+
+
+##### Aquatisch \> meren \> Zeer diep water {#sec-Zeer-diep-water}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Kanalen > Zeer diep brak water (bZz) > zeer diep (`KbZx`)
+
+**Bovenliggende brontitel:** Kanalen > Zeer diep brak water (bZz)
+
+**Ecotooptitel in bron:** zeer diep (`KbZx`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.644
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Kanalen > Zeer diep brak water (bZz) > zeer diep (`KbZx`) [score 0.644] | 2. Meren > Ondiep water (Oz/m/h) > ondiep, hard (`MZOh`) [score 0.643] | 3. Meren > Diep water (Mz/w) > diep, hard (`MzDh`) [score 0.641]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.644** en moet handmatig gecontroleerd worden.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklasse zeer diep brak water omvat alle delen in kanalen die per- manent dieper zijn dan 10 meter. Dergelijke dieptes komen alleen in brakke of zoute scheepvaartkanalen voor. Het chloridegehalte varieert in de lengte- richting van het kanaal en over de verticaal van de waterkolom. In de lengte- richting is er een toename van het chloridegehalte in de richting van de zee als gevolg van het schutregime van de sluizen. De verticale zoutgradient ontstaat als gevolg van het hoger soortelijk gewicht van zout ten opzichte van zoet water, waardoor er gelaagdheid in het chloridegehalte ontstaat. De laag net boven de bodem ('zouttong') heeft een hoger chloridegehalte dan de waterlagen daarboven. De ligging van de zoutgradient wordt in belang- rijke mate bepaald door de mate van water aan- en afvoer in een kanaal. Afhankelijk van de verversing kan de zouttong meer of minder zuurstof bevatten, wat van invloed kan zijn op het leven in en boven de bodem. De ecotoopklasse matig diep brak water betreft kanaalwater dat tussen de 1 en 2 meter diep is. De bodem van de meest dynamische delen is veelal kunstmatig verhard. Het deel dat dynamisch tot laag dynamisch is, is onder- scheiden op basis van bodemtype. Ondiep brak water betreft kanaalwater dat tussen 1 en 0,3 meter diep is. In de brakke kanalen is het chloridegehalte van deze delen van het water praktisch altijd < 3 g C M . De bodem van de meest dynamische delen is veelal kunstmatig verhard. Vermoedelijk is klei- bodem afwezig als gevolg van erosie tot slib. Ecotopen van beide ecotoop- klassen kunnen voorkomen achter een open of gesloten vooroeververdediging. Bij afwezigheid van een vooroeververdediging is in de oeverzone geen slib- laag aanwezig als gevolg van een te grote mechanische dynamiek door golfwerking.
+
+**Ecologische beschrijving en referentie**
+
+5.5.2 Brakke kanalen Zoutgradienten veroorzaken zowel een horizontale als een verticale variatie in de verspreiding van fytoplankton-, zooplankton-, macrofauna- en visgemeen- schappen in zeer diep brak water. In de buurt van de sluizen worden de mariene en brakwater soorten aangetroffen, meer landinwaarts kan het aan- deel zoetwatersoorten sterk toenemen als gevolg van de aanvoer van zoet water. In het Noordzeekanaal loopt deze gradient van 0,5 CI7I bij Amsterdam tot 6 CI7I bij Umuiden. Uit onderzoek aan dit kanaal is gebleken dat bepaalde plankton- en macrofaunasoorten (met name de brakke soorten) als 'kanaal- eigen' kunnen worden beschouwd: deze soorten komen namelijk niet voor in de aanvoerende zoete of zoute wateren. In het Noordzeekanaal komen daarnaast ook typische Zuiderzeerelicten voor, zoals het zuiderzeekrabbetje (Rithropanopeus harrisii) en de borstelworm (Streblospio shrubsolii). bestaat uit brakwatersoorten en, afhankelijk van de afstand tot zee, daar- naast meer zoutwater- dan wel zoetwatersoorten. De hoogte van de bio- massa is afhankelijk van de voedselrijkdom, de beschikbaarheid van licht en de verblijftijd van het water. De bodemfauna bestaat uit tweekleppigen, kreeftachtigen, muggenlarven en borstelwormen. Bij slibbodems overheerst laatstgenoemde groep. Evenals bij het zeer diepe open water bestaat er in brakke kanalen een zoutgradient zowel in lengterichting als over de verticaal. Dit komt tot uiting in de fytoplankton en macrofaunasamenstelling en het meer of minder voorkomen van vissoorten van zoet of brak water. De onderlaag van het diepe water is meestal permanent brak. In het diepe water van brakke kanalen komt de visstand grotendeels overeen met die van het zeer diepe water. De aanwezige vis vormt een voedselbron voor viseters als aalscholver, grote zaagbek, nonnetje en fuut. Duikeenden als kuifeend en tafeleend eten bodemfauna tot op een diepte van circa 5 meter.
+
+
+##### Aquatisch \> meren \> Diep water {#sec-Diep-water}
+
+::: {.callout-note collapse="true"}
+## Matchinformatie
+
+**Samengestelde brontitel:** Kanalen > Diep water (Dz) > diep (`KzDx`)
+
+**Bovenliggende brontitel:** Kanalen > Diep water (Dz)
+
+**Ecotooptitel in bron:** diep (`KzDx`)
+
+**Stelsel:** aquatisch
+
+**Bronbestand:** `rwes_aquatisch_ecotoopbeschrijvingen.md`
+
+**Headingniveau ecotoop:** 4
+
+**Matchscore:** 0.637
+
+**Beoordeling:** lage matchscore
+
+**Beste kandidaten:** 1. Kanalen > Diep water (Dz) > diep (`KzDx`) [score 0.637] | 2. Kanalen > Ondiep water (O) > ondiep, hard (`KzOh`) [score 0.625] | 3. Kanalen > Matig diep water (O) > matig diep, hard (`KzMh`) [score 0.625]
+:::
+
+::: {.callout-warning}
+## Controle nodig
+
+Deze koppeling heeft een lage matchscore van **0.637** en moet handmatig gecontroleerd worden.
+:::
+
+**Landschappelijke zonering en abiotische kenmerken**
+
+De ecotoopklasse matig diep brak water betreft kanaalwater dat tussen de 1 en 2 meter diep is. De bodem van de meest dynamische delen is veelal kunstmatig verhard. Het deel dat dynamisch tot laag dynamisch is, is onder- scheiden op basis van bodemtype. Ondiep brak water betreft kanaalwater dat tussen 1 en 0,3 meter diep is. In de brakke kanalen is het chloridegehalte van deze delen van het water praktisch altijd < 3 g C M . De bodem van de meest dynamische delen is veelal kunstmatig verhard. Vermoedelijk is klei- bodem afwezig als gevolg van erosie tot slib. Ecotopen van beide ecotoop- klassen kunnen voorkomen achter een open of gesloten vooroeververdediging. Bij afwezigheid van een vooroeververdediging is in de oeverzone geen slib- laag aanwezig als gevolg van een te grote mechanische dynamiek door golfwerking. De ecotoopklasse zeer diep brak water omvat alle delen in kanalen die per- manent dieper zijn dan 10 meter. Dergelijke dieptes komen alleen in brakke of zoute scheepvaartkanalen voor. Het chloridegehalte varieert in de lengte- richting van het kanaal en over de verticaal van de waterkolom. In de lengte- richting is er een toename van het chloridegehalte in de richting van de zee als gevolg van het schutregime van de sluizen. De verticale zoutgradient ontstaat als gevolg van het hoger soortelijk gewicht van zout ten opzichte van zoet water, waardoor er gelaagdheid in het chloridegehalte ontstaat. De laag net boven de bodem ('zouttong') heeft een hoger chloridegehalte dan de waterlagen daarboven. De ligging van de zoutgradient wordt in belang- rijke mate bepaald door de mate van water aan- en afvoer in een kanaal. Afhankelijk van de verversing kan de zouttong meer of minder zuurstof bevatten, wat van invloed kan zijn op het leven in en boven de bodem.
+
+**Ecologische beschrijving en referentie**
+
+Het lichtklimaat in kanalen als gevolg van de slibrijkdom is zodanig dat dieper dan 2 meter geen waterplanten worden verwacht. Fytoplankton is daarom in de bovenste waterlagen van diep brak water de belangrijkste primaire producent en vegetatie is nagenoeg afwezig. De fytoplanktonpopulatie 5.5.1 Zoete kanalen Het lichtklimaat is in kanalen als gevolg van de slibrijkdom en dynamiek zodanig dat dieper dan 2 meter (ecotoopklasse diep water) geen water- planten worden verwacht. Fytoplankton is in de bovenste waterlagen de belangrijkste primaire producent. De hoogte van de biomassa is afhankelijk van de voedselrijkdom en de beschikbaarheid van licht. De bodemfauna bestaat uit tweekleppigen, kreeftachtigen, muggenlarven en wormen. In slibrijke delen komen vooral wormen voor. Bodemfauna-etende vissoorten bestaan onder meer uit blankvoorn, brasem, pos en paling. Roofvissen van het diepe open water zijn baars, snoekbaars en grote exemplaren van de snoek. De aanwezige vis vormt een voedselbron voor viseters als aalscholver, grote zaagbek, nonnetje en fuut. Duikeenden als kuifeend en tafeleend foerageren op bodemfauna tot een diepte van circa 5 meter.
+
+
